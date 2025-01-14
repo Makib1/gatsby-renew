@@ -12,7 +12,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`
 })
 const strapiConfig = {
-  apiURL: process.env.STRAPI_URL || "http://127.0.0.1:1337",
+  apiURL: process.env.STRAPI_URL || "https://devwebbk.lumiq.ai",
   collectionTypes: ["blog","blog-detail","pryzm"],
 };
 module.exports = {
