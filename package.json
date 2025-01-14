@@ -31,9 +31,9 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "NODE_ENV=dev gatsby develop",
+    "develop": "NODE_ENV=development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "NODE_ENV=dev npm run develop",
+    "start": "NODE_ENV=development npm run develop",
     "serve": "gatsby serve --host=0.0.0.0 --port=7000",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",

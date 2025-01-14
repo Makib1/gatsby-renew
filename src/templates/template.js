@@ -14,7 +14,7 @@ const BlogTemplate = ({ pageContext }) => {
         <meta name="description" content={"description"} />
         <meta property="og:title" content={content.header} />
         <meta property="og:description" content={content.slug} />
-        <meta property="og:image" content={`${process.env.STRAPI_URL + content.imageUrl}`} />
+        <meta property="og:image" content={`https://devwebbk.lumiq.ai${content.imageUrl}`} />
       </Helmet>
     <div className="preview-page">
       <div className="page-content">
@@ -22,7 +22,7 @@ const BlogTemplate = ({ pageContext }) => {
           <h1>{content.header}</h1>
           <h2 className="tw-pt-8">{content.slug}</h2>
           <div className="tw-pt-3">
-            <img src={`${process.env.STRAPI_URL + content.imageUrl}`}/>
+            <img src={`https://devwebbk.lumiq.ai${content.imageUrl}`}/>
           </div>
         </div>
       </div>
