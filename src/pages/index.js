@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 // import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../static/style/globalCss/common.scss"
 
 import "../static/style/globalCss/common.scss"
 // import Layout from "../components/Layout"

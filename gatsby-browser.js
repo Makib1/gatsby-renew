@@ -1,7 +1,15 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
- */
+// import './src/styles/style.scss';
+// src/gatsby-ssr.js
+import React from 'react';
+import { ThemeProvider } from './src/themeContext';
+import Layout from './src/components/Layout'; // Import your Layout component
 
-// You can delete this file if you're not using it
+export const wrapPageElement = ({ element }) => {
+  return (
+    <ThemeProvider>
+      <Layout>{element}</Layout>
+    </ThemeProvider>
+  );
+};
+
+export { wrapRootElement } from './src/apollo/provider';

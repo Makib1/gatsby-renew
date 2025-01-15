@@ -22,13 +22,13 @@ exports.sourceNodes = async ({ actions }) => {
   const requestData = async (url, nodeType) => {
     const response = await axios.get(url);
     return {
-      id: `1`,
+      id: `${nodeType}-1`, // Unique ID for each node
       parent: `__SOURCE__`,
       internal: {
         type: nodeType,
       },
       children: [],
-      [nodeType]: { journey: response.data.data },
+      journey: response.data.data, // Store fetched data in a consistent field
     };
   };
 
@@ -97,10 +97,10 @@ exports.sourceNodes = async ({ actions }) => {
       url: `${process.env.STRAPI_URL}/api/gen-ais/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
       type: "genai",
     },
-    {
-      url: `${process.env.STRAPI_URL}/api/aws-foundations/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
-      type: "awsFoundation",
-    },
+    // {
+    //   url: `${process.env.STRAPI_URL}/api/aws-foundations/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
+    //   type: "awsFoundation",
+    // },
     
   ];
   const responses = await Promise.all(

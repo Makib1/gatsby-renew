@@ -1,603 +1,603 @@
-// .partner-pagev2 {
-//   // scroll-margin: 110px;
-//   h1,
-//   h2,
-//   h3 {
-//     font-family: var(--font-helvicta);
-//   }
-//   .heading-sm.padding-top-60px {
-//     padding: var(--section-spacing-md) 0px;
-//     padding-top: 40px;
-//   }
+.partner-pagev2 {
+  // scroll-margin: 110px;
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-helvicta);
+  }
+  .heading-sm.padding-top-60px {
+    padding: var(--section-spacing-md) 0px;
+    padding-top: 40px;
+  }
 
-//   .bottom_line {
-//     height: 1px;
-//     width: 100%;
-//     background: #000;
-//   }
+  .bottom_line {
+    height: 1px;
+    width: 100%;
+    background: #000;
+  }
 
-//   .partner-banner {
-//     h3 {
-//       span {
-//         border-bottom: 1px solid #000;
-//       }
-//     }
+  .partner-banner {
+    h3 {
+      span {
+        border-bottom: 1px solid #000;
+      }
+    }
 
-//     .banner-image-section {
-//       // padding-bottom: var(--section-spacing-lg);
-//     }
-//   }
+    .banner-image-section {
+      // padding-bottom: var(--section-spacing-lg);
+    }
+  }
 
-//   .partnes-quotes {
-//     padding: var(--section-spacing-lg) 0;
+  .partnes-quotes {
+    padding: var(--section-spacing-lg) 0;
 
-//     h4 {
-//       text-align: center;
-//       font-family: var(--font-helvicta-light);
-//       line-height: var(--line-height-default);
-//       letter-spacing: var(--letter-spacing-1);
-//       color: var(--color-grey);
-//       position: relative;
-//     }
-//     h4::before {
-//       content: "";
-//       background: url(../../images/colan.svg) center center no-repeat;
-//       height: 18px;
-//       width: 18px;
-//       background-size: 18px;
-//       display: inline-block;
-//       position: absolute;
-//       left: 5%;
-//       top: -30px;
-//     }
-//     h4::after {
-//       content: "";
-//       background: url(../../images/colanBottom.svg) center center no-repeat;
-//       height: 18px;
-//       width: 18px;
-//       background-size: 18px;
-//       display: inline-block;
-//       position: absolute;
-//       right: 5%;
-//       top: -30px;
-//     }
-//   }
+    h4 {
+      text-align: center;
+      font-family: var(--font-helvicta-light);
+      line-height: var(--line-height-default);
+      letter-spacing: var(--letter-spacing-1);
+      color: var(--color-grey);
+      position: relative;
+    }
+    h4::before {
+      content: "";
+      background: url(../../images/colan.svg) center center no-repeat;
+      height: 18px;
+      width: 18px;
+      background-size: 18px;
+      display: inline-block;
+      position: absolute;
+      left: 5%;
+      top: -30px;
+    }
+    h4::after {
+      content: "";
+      background: url(../../images/colanBottom.svg) center center no-repeat;
+      height: 18px;
+      width: 18px;
+      background-size: 18px;
+      display: inline-block;
+      position: absolute;
+      right: 5%;
+      top: -30px;
+    }
+  }
 
-//   .partners-types {
-//     .partners-types-inner {
-//       display: flex;
-//       flex-wrap: wrap;
-//       padding: 0 150px;
+  .partners-types {
+    .partners-types-inner {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 150px;
 
-//       .partner-box {
-//         width: 100%;
-//         display: flex;
-//         justify-content: space-between;
-//         flex-wrap: wrap;
-//         border-bottom: 1px solid #000000;
-//         margin-top: var(--section-spacing-lg);
-//         .left-title {
-//           width: 20%;
-//           h2 {
-//             padding-left: 60px !important;
-//             background: url(../../images/leftArraw.png) left top 10px
-//               no-repeat;
-//             background-size: 18px;
-//           }
-//         }
+      .partner-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #000000;
+        margin-top: var(--section-spacing-lg);
+        .left-title {
+          width: 20%;
+          h2 {
+            padding-left: 60px !important;
+            background: url(../../images/leftArraw.png) left top 10px
+              no-repeat;
+            background-size: 18px;
+          }
+        }
 
-//         .right-details {
-//           width: 64%;
-//           p {
-//             font-size: var(--text-sx);
-//             font-family: var(--font-helvicta-light);
-//             line-height: 1.3;
-//             letter-spacing: var(--letter-spacing-1);
-//             color: var(--color-grey);
-//           }
+        .right-details {
+          width: 64%;
+          p {
+            font-size: var(--text-sx);
+            font-family: var(--font-helvicta-light);
+            line-height: 1.3;
+            letter-spacing: var(--letter-spacing-1);
+            color: var(--color-grey);
+          }
 
-//           .logo-box {
-//             margin-top: var(--section-spacing-sm);
-//             padding: 40px 0 0;
-//             border-top: 1px solid #000000;
-//             display: flex;
-//             justify-content: space-between;
-//             align-items: center;
-//             flex-wrap: wrap;
+          .logo-box {
+            margin-top: var(--section-spacing-sm);
+            padding: 40px 0 0;
+            border-top: 1px solid #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
 
-//             .partner-logo {
-//               margin-right: 50px;
-//               margin-bottom: 40px;
-//               display: flex;
-//               align-items: center;
+            .partner-logo {
+              margin-right: 50px;
+              margin-bottom: 40px;
+              display: flex;
+              align-items: center;
 
-//               .right-arrow-btn {
-//                 margin-left: 20px;
-//                 width: 152px;
-//                 padding-bottom: 10px;
-//                 p {
-//                   font-size: var(--text-mini);
-//                   padding-right: 20px;
-//                   color: #000;
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
+              .right-arrow-btn {
+                margin-left: 20px;
+                width: 152px;
+                padding-bottom: 10px;
+                p {
+                  font-size: var(--text-mini);
+                  padding-right: 20px;
+                  color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
 
-//       .partner-box:last-child {
-//         border-bottom: none;
-//       }
-//     }
-//   }
-// }
+      .partner-box:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
 
-// @media (max-width: 1720px) {
-//   .partner-pagev2 {
-//     scroll-margin: 120px;
-//     .partners-types .partners-types-inner {
-//       .partner-box {
-//         margin-top: var(--section-spacing-md);
-//         .left-title {
-//           h2 {
-//             background-size: 16px;
-//           }
-//         }
-//         .right-details {
-//           width: 70%;
-//           .logo-box {
-//             justify-content: flex-start;
-//             .partner-logo {
-//               margin-right: 20px;
-//             }
-//           }
-//         }
-//       }
-//       .cloud-partner {
-//         .right-details .logo-box {
-//           justify-content: space-between;
-//           .partner-logo {
-//             margin-right: 20px;
-//           }
-//         }
-//       }
-//       .tech-partner {
-//         .right-details .logo-box {
-//           justify-content: space-between;
-//           .partner-logo {
-//             margin-right: 10px;
-//           }
-//         }
-//       }
-//       .channel-partner {
-//         .right-details .logo-box {
-//           justify-content: flex-start;
-//           .partner-logo {
-//             margin-right: 150px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1720px) {
+  .partner-pagev2 {
+    scroll-margin: 120px;
+    .partners-types .partners-types-inner {
+      .partner-box {
+        margin-top: var(--section-spacing-md);
+        .left-title {
+          h2 {
+            background-size: 16px;
+          }
+        }
+        .right-details {
+          width: 70%;
+          .logo-box {
+            justify-content: flex-start;
+            .partner-logo {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      .cloud-partner {
+        .right-details .logo-box {
+          justify-content: space-between;
+          .partner-logo {
+            margin-right: 20px;
+          }
+        }
+      }
+      .tech-partner {
+        .right-details .logo-box {
+          justify-content: space-between;
+          .partner-logo {
+            margin-right: 10px;
+          }
+        }
+      }
+      .channel-partner {
+        .right-details .logo-box {
+          justify-content: flex-start;
+          .partner-logo {
+            margin-right: 150px;
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 1600px) {
-//   .partner-pagev2 {
-//     scroll-margin: 110px;
-//     .partnes-quotes {
-//       margin: 0px 0;
-//     }
-//     .partners-types .partners-types-inner {
-//       .partner-box {
-//         .left-title {
-//           h2 {
-//           }
-//         }
-//         .right-details {
-//           .logo-box {
-//             .partner-logo {
-//             }
-//           }
-//         }
-//       }
-//       .cloud-partner {
-//         .right-details .logo-box {
-//           .partner-logo {
-//           }
-//         }
-//       }
-//       .tech-partner {
-//         .right-details .logo-box {
-//           .partner-logo {
-//           }
-//         }
-//       }
-//       .channel-partner {
-//         .right-details .logo-box {
-//           .partner-logo {
-//             margin-right: 120px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1600px) {
+  .partner-pagev2 {
+    scroll-margin: 110px;
+    .partnes-quotes {
+      margin: 0px 0;
+    }
+    .partners-types .partners-types-inner {
+      .partner-box {
+        .left-title {
+          h2 {
+          }
+        }
+        .right-details {
+          .logo-box {
+            .partner-logo {
+            }
+          }
+        }
+      }
+      .cloud-partner {
+        .right-details .logo-box {
+          .partner-logo {
+          }
+        }
+      }
+      .tech-partner {
+        .right-details .logo-box {
+          .partner-logo {
+          }
+        }
+      }
+      .channel-partner {
+        .right-details .logo-box {
+          .partner-logo {
+            margin-right: 120px;
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 1440px) {
-//   .partner-pagev2 {
-//     .partnes-quotes {
-//       margin-top: 20px;
-//     }
-//     .partners-types {
-//       .partners-types-inner {
-//         padding: 0px 100px;
-//         .cloud-partner {
-//           .right-details .logo-box {
-//             .partner-logo {
-//             }
-//           }
-//         }
-//         .tech-partner {
-//           .right-details .logo-box {
-//             .partner-logo {
-//               margin-right: 10px;
-//             }
-//           }
-//         }
-//         .channel-partner {
-//           .right-details .logo-box {
-//             .partner-logo {
-//               margin-right: 120px;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1440px) {
+  .partner-pagev2 {
+    .partnes-quotes {
+      margin-top: 20px;
+    }
+    .partners-types {
+      .partners-types-inner {
+        padding: 0px 100px;
+        .cloud-partner {
+          .right-details .logo-box {
+            .partner-logo {
+            }
+          }
+        }
+        .tech-partner {
+          .right-details .logo-box {
+            .partner-logo {
+              margin-right: 10px;
+            }
+          }
+        }
+        .channel-partner {
+          .right-details .logo-box {
+            .partner-logo {
+              margin-right: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 1366px) {
-//   .partner-pagev2 {
-//     .partner-banner {
-//       .banner-image-section {
-//         margin-bottom: 90px;
-//       }
-//     }
-//     .partnes-quotes {
-//       margin: 0px 0;
-//       padding-top: 0px;
-//     }
-//     .partners-types {
-//       .partners-types-inner {
-//         .partner-box {
-//           margin-top: 70px;
-//           .left-title {
-//             h2 {
-//               background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEQSURBVHgB7ZnRDYIwEIb/GAdgBEbQEdxAJ7CbWCdwBNkERnADu4FsoNdUkppYwCf/I/cl/0u5ly/0eg0ACSd5ZrlCESssAJNgwSRYMAkWTIIFk2DBJFgwCRZMggWTYMEkWDAJFlglNr8Us0pcJMe5xczbqZGc5hSy94THDBENje0xIaLldPIYEdF0xHoUvtZrmxMOSaTKFzUOOydpkYmsC4X1u/hfVBPP4zCMIgdJGBYdPv8UacldUmu/O9WSdgkXwPPQEwFpzLOwx3Rf9Eg90YGUFuO98EB209W4nYJkK7kNC9okgmSH7FiNaJII+CIQ0SIRUBCIaJCIez/2QCgVsEt0SG+gh0LiEdtAOQ6GQl6ph1lbBlSV+AAAAABJRU5ErkJggg==)
-//                 left top 10px no-repeat;
-//               background-size: 15px;
-//               padding-left: 50px !important;
-//             }
-//           }
-//           .right-details {
-//             width: 75%;
-//             .logo-box {
-//               margin-top: 50px;
-//               .partner-logo {
-//                 margin-right: 30px;
-//               }
-//             }
-//           }
-//         }
-//         .cloud-partner {
-//           .right-details .logo-box {
-//             justify-content: space-between;
-//             .partner-logo {
-//               margin-right: 20px;
-//             }
-//           }
-//         }
-//         .tech-partner {
-//           .right-details .logo-box {
-//             justify-content: space-between;
-//             .partner-logo {
-//               margin-right: 0px;
-//             }
-//           }
-//         }
-//         .channel-partner {
-//           .right-details .logo-box {
-//             justify-content: flex-start;
-//             .partner-logo {
-//               margin-right: 100px;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1366px) {
+  .partner-pagev2 {
+    .partner-banner {
+      .banner-image-section {
+        margin-bottom: 90px;
+      }
+    }
+    .partnes-quotes {
+      margin: 0px 0;
+      padding-top: 0px;
+    }
+    .partners-types {
+      .partners-types-inner {
+        .partner-box {
+          margin-top: 70px;
+          .left-title {
+            h2 {
+              background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEQSURBVHgB7ZnRDYIwEIb/GAdgBEbQEdxAJ7CbWCdwBNkERnADu4FsoNdUkppYwCf/I/cl/0u5ly/0eg0ACSd5ZrlCESssAJNgwSRYMAkWTIIFk2DBJFgwCRZMggWTYMEkWDAJFlglNr8Us0pcJMe5xczbqZGc5hSy94THDBENje0xIaLldPIYEdF0xHoUvtZrmxMOSaTKFzUOOydpkYmsC4X1u/hfVBPP4zCMIgdJGBYdPv8UacldUmu/O9WSdgkXwPPQEwFpzLOwx3Rf9Eg90YGUFuO98EB209W4nYJkK7kNC9okgmSH7FiNaJII+CIQ0SIRUBCIaJCIez/2QCgVsEt0SG+gh0LiEdtAOQ6GQl6ph1lbBlSV+AAAAABJRU5ErkJggg==)
+                left top 10px no-repeat;
+              background-size: 15px;
+              padding-left: 50px !important;
+            }
+          }
+          .right-details {
+            width: 75%;
+            .logo-box {
+              margin-top: 50px;
+              .partner-logo {
+                margin-right: 30px;
+              }
+            }
+          }
+        }
+        .cloud-partner {
+          .right-details .logo-box {
+            justify-content: space-between;
+            .partner-logo {
+              margin-right: 20px;
+            }
+          }
+        }
+        .tech-partner {
+          .right-details .logo-box {
+            justify-content: space-between;
+            .partner-logo {
+              margin-right: 0px;
+            }
+          }
+        }
+        .channel-partner {
+          .right-details .logo-box {
+            justify-content: flex-start;
+            .partner-logo {
+              margin-right: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 1199px) {
-//   .partner-pagev2 {
-//     .partnes-quotes {
-//       margin: 0px 0;
-//     }
-//     .partners-types {
-//       .partners-types-inner {
-//         padding: 0px 50px;
-//         .partner-box {
-//           margin-top: 50px;
-//           .right-details {
-//             width: 75%;
-//             .logo-box {
-//               margin-top: 40px;
-//             }
-//           }
-//         }
-//         .cloud-partner {
-//           .right-details .logo-box {
-//             justify-content: space-between;
-//             .partner-logo {
-//               width: 200px;
-//               margin-right: 10px;
-//             }
-//           }
-//         }
-//         .tech-partner {
-//           .right-details .logo-box {
-//             justify-content: flex-start;
-//             .partner-logo {
-//               margin-right: 40px;
-//             }
-//           }
-//         }
-//         .channel-partner {
-//           .right-details .logo-box {
-//             justify-content: flex-start;
-//             .partner-logo {
-//               margin-right: 90px;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1199px) {
+  .partner-pagev2 {
+    .partnes-quotes {
+      margin: 0px 0;
+    }
+    .partners-types {
+      .partners-types-inner {
+        padding: 0px 50px;
+        .partner-box {
+          margin-top: 50px;
+          .right-details {
+            width: 75%;
+            .logo-box {
+              margin-top: 40px;
+            }
+          }
+        }
+        .cloud-partner {
+          .right-details .logo-box {
+            justify-content: space-between;
+            .partner-logo {
+              width: 200px;
+              margin-right: 10px;
+            }
+          }
+        }
+        .tech-partner {
+          .right-details .logo-box {
+            justify-content: flex-start;
+            .partner-logo {
+              margin-right: 40px;
+            }
+          }
+        }
+        .channel-partner {
+          .right-details .logo-box {
+            justify-content: flex-start;
+            .partner-logo {
+              margin-right: 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 1023px) {
-//   .partner-pagev2 {
-//     .partner-banner {
-//       .banner-image-section {
-//         margin-bottom: 70px;
-//       }
-//     }
-//     .partners-types {
-//       .partners-types-inner {
-//         padding: 0px;
-//         .partner-box {
-//           .right-details {
-//             width: 72%;
-//             .logo-box {
-//               .partner-logo {
-//                 width: 30%;
-//                 margin-right: 10px;
-//               }
-//             }
-//           }
-//           .left-title {
-//             h2 {
-//               background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEQSURBVHgB7ZnRDYIwEIb/GAdgBEbQEdxAJ7CbWCdwBNkERnADu4FsoNdUkppYwCf/I/cl/0u5ly/0eg0ACSd5ZrlCESssAJNgwSRYMAkWTIIFk2DBJFgwCRZMggWTYMEkWDAJFlglNr8Us0pcJMe5xczbqZGc5hSy94THDBENje0xIaLldPIYEdF0xHoUvtZrmxMOSaTKFzUOOydpkYmsC4X1u/hfVBPP4zCMIgdJGBYdPv8UacldUmu/O9WSdgkXwPPQEwFpzLOwx3Rf9Eg90YGUFuO98EB209W4nYJkK7kNC9okgmSH7FiNaJII+CIQ0SIRUBCIaJCIez/2QCgVsEt0SG+gh0LiEdtAOQ6GQl6ph1lbBlSV+AAAAABJRU5ErkJggg==)
-//                 left top 2px no-repeat;
-//               background-size: 16px;
-//               padding-left: 35px !important;
-//               line-height: 28px !important;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 1023px) {
+  .partner-pagev2 {
+    .partner-banner {
+      .banner-image-section {
+        margin-bottom: 70px;
+      }
+    }
+    .partners-types {
+      .partners-types-inner {
+        padding: 0px;
+        .partner-box {
+          .right-details {
+            width: 72%;
+            .logo-box {
+              .partner-logo {
+                width: 30%;
+                margin-right: 10px;
+              }
+            }
+          }
+          .left-title {
+            h2 {
+              background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEQSURBVHgB7ZnRDYIwEIb/GAdgBEbQEdxAJ7CbWCdwBNkERnADu4FsoNdUkppYwCf/I/cl/0u5ly/0eg0ACSd5ZrlCESssAJNgwSRYMAkWTIIFk2DBJFgwCRZMggWTYMEkWDAJFlglNr8Us0pcJMe5xczbqZGc5hSy94THDBENje0xIaLldPIYEdF0xHoUvtZrmxMOSaTKFzUOOydpkYmsC4X1u/hfVBPP4zCMIgdJGBYdPv8UacldUmu/O9WSdgkXwPPQEwFpzLOwx3Rf9Eg90YGUFuO98EB209W4nYJkK7kNC9okgmSH7FiNaJII+CIQ0SIRUBCIaJCIez/2QCgVsEt0SG+gh0LiEdtAOQ6GQl6ph1lbBlSV+AAAAABJRU5ErkJggg==)
+                left top 2px no-repeat;
+              background-size: 16px;
+              padding-left: 35px !important;
+              line-height: 28px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 767px) {
-//   .partner-pagev2 {
-//     .partner-banner {
-//       .banner-image-section {
-//         margin-bottom: 70px;
-//       }
-//       .page-wrapper {
-//         .heading-lg {
-//           min-height: 104px;
-//         }
-//       }
-//     }
-//     .partnes-quotes {
-//       h4 {
-//         br {
-//           display: none;
-//         }
-//         &::before{
-//             background-size: 15px;
-//         }
-//         &::after{
-//             background-size: 15px;
-//         }
-//       }
-//     }
-//     .partners-types {
-//       .partners-types-inner {
-//         padding: 0px;
-//         .partner-box {
-//           .right-details {
-//             width: 72%;
-//             .logo-box {
-//               .partner-logo {
-//                 width: 20%;
-//                 margin-right: 10px;
-//                 display: flex;
-//                 flex-direction: column;
-//                 .right-arrow-btn{
-//                     width: 120px;
-//                     padding-top: 20px;
-//                 }
-//                 .img-box{
-//                     width: 40px;
-//                 }
-//                 &:last-child{
-//                     .img-box{
-//                         width: 140px;
-//                     }
-//                 }
-//               }
-//             }
-//           }
-//           .left-title {
-//             h2 {
-//               background-size: 16px;
-//               padding-left: 35px !important;
-//               line-height: 28px !important;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 767px) {
+  .partner-pagev2 {
+    .partner-banner {
+      .banner-image-section {
+        margin-bottom: 70px;
+      }
+      .page-wrapper {
+        .heading-lg {
+          min-height: 104px;
+        }
+      }
+    }
+    .partnes-quotes {
+      h4 {
+        br {
+          display: none;
+        }
+        &::before{
+            background-size: 15px;
+        }
+        &::after{
+            background-size: 15px;
+        }
+      }
+    }
+    .partners-types {
+      .partners-types-inner {
+        padding: 0px;
+        .partner-box {
+          .right-details {
+            width: 72%;
+            .logo-box {
+              .partner-logo {
+                width: 20%;
+                margin-right: 10px;
+                display: flex;
+                flex-direction: column;
+                .right-arrow-btn{
+                    width: 120px;
+                    padding-top: 20px;
+                }
+                .img-box{
+                    width: 40px;
+                }
+                &:last-child{
+                    .img-box{
+                        width: 140px;
+                    }
+                }
+              }
+            }
+          }
+          .left-title {
+            h2 {
+              background-size: 16px;
+              padding-left: 35px !important;
+              line-height: 28px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media (max-width: 600px) {
-//   .partner-pagev2 {
-//     .page-content {
-//       .partner-banner {
-//         .page-wrapper {
-//           h3 {
-//             border-bottom: 1px solid var(--color-grey);
-//             padding-bottom: 10px;
-//             padding-top: 30px;
-//             margin-right: 100px;
-//             span {
-//               border: none;
-//             }
-//           }
-//           h3.paddinng-top-60px {
-//             padding-bottom: 0px;
-//           }
-//           .banner-image-section {
-//             margin-bottom: 0px;
-//             padding-top: 35px;
-//           }
-//         }
-//       }
-//       .partnes-quotes {
-//         margin: 0px;
-//         padding: 70px 0;
-//         h4 {
-//           text-align: left;
-//           padding-left: 40px !important;
-//           padding-right: 24px;
-//           font-size: 20px;
-//           letter-spacing: 0.04px !important;
-//           br {
-//             display: none;
-//           }
-//         }
+@media (max-width: 600px) {
+  .partner-pagev2 {
+    .page-content {
+      .partner-banner {
+        .page-wrapper {
+          h3 {
+            border-bottom: 1px solid var(--color-grey);
+            padding-bottom: 10px;
+            padding-top: 30px;
+            margin-right: 100px;
+            span {
+              border: none;
+            }
+          }
+          h3.paddinng-top-60px {
+            padding-bottom: 0px;
+          }
+          .banner-image-section {
+            margin-bottom: 0px;
+            padding-top: 35px;
+          }
+        }
+      }
+      .partnes-quotes {
+        margin: 0px;
+        padding: 70px 0;
+        h4 {
+          text-align: left;
+          padding-left: 40px !important;
+          padding-right: 24px;
+          font-size: 20px;
+          letter-spacing: 0.04px !important;
+          br {
+            display: none;
+          }
+        }
 
-//         h4::before {
-//           height: 14px;
-//           width: 14px;
-//           background-size: 10px;
-//           left: 3%;
-//           top: 0;
-//         }
-//         h4::after {
-//           height: 14px;
-//           width: 14px;
-//           background-size: 10px;
-//           right: 0;
-//           top: auto;
-//           bottom: 0;
-//         }
-//       }
-//       .underline-class .page-wrapper {
-//         max-width: 100%;
-//         margin: 0 auto;
-//         padding: 0px 24px !important;
-//       }
-//       .partners-types {
-//         .partners-types-inner {
-//           .partner-box {
-//             .left-title {
-//               width: 100%;
-//               br {
-//                 display: none;
-//               }
-//               h2 {
-//                 font-size: 22px !important;
-//                 background-size: 15px;
-//                 padding-left: 30px !important;
-//                 min-height: 30px;
-//               }
-//             }
-//             .right-details {
-//               width: 100%;
-//               padding: 30px 0px 10px 90px !important;
-//               p {
-//                 br {
-//                   display: none;
-//                 }
-//               }
-//               .logo-box {
-//                 margin-top: 30px;
-//                 .partner-logo {
-//                   width: 28%;
-//                   margin-bottom: 30px;
-//                 }
-//               }
-//             }
-//           }
-//           .cloud-partner {
-//             .right-details .logo-box {
-//               display: flex;
-//               flex-direction: column;
-//               justify-content: flex-start;
-//               .partner-logo {
-//                 width: 100%;
-//                 margin-right: 20px;
-//                 flex-direction: row;
-//                 button {
-//                   margin-left: 50px;
-//                   width: 88%;
-//                   span {
-//                     align-self: auto;
-//                   }
-//                 }
-//               }
-//             }
-//           }
-//           .tech-partner {
-//             width: 100%;
-//             .right-details .logo-box {
-//               justify-content: space-between;
-//               .partner-logo {
-//                 margin-right: 0px;
-//                 margin-bottom: 20px;
-//                 width: 40%;
-//               }
-//             }
-//           }
-//           .channel-partner {
-//             .right-details .logo-box {
-//               justify-content: space-between;
-//               .partner-logo {
-//                 width: 44%;
-//                 margin-right: 0px;
-//                 margin-bottom: 20px;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+        h4::before {
+          height: 14px;
+          width: 14px;
+          background-size: 10px;
+          left: 3%;
+          top: 0;
+        }
+        h4::after {
+          height: 14px;
+          width: 14px;
+          background-size: 10px;
+          right: 0;
+          top: auto;
+          bottom: 0;
+        }
+      }
+      .underline-class .page-wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0px 24px !important;
+      }
+      .partners-types {
+        .partners-types-inner {
+          .partner-box {
+            .left-title {
+              width: 100%;
+              br {
+                display: none;
+              }
+              h2 {
+                font-size: 22px !important;
+                background-size: 15px;
+                padding-left: 30px !important;
+                min-height: 30px;
+              }
+            }
+            .right-details {
+              width: 100%;
+              padding: 30px 0px 10px 90px !important;
+              p {
+                br {
+                  display: none;
+                }
+              }
+              .logo-box {
+                margin-top: 30px;
+                .partner-logo {
+                  width: 28%;
+                  margin-bottom: 30px;
+                }
+              }
+            }
+          }
+          .cloud-partner {
+            .right-details .logo-box {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              .partner-logo {
+                width: 100%;
+                margin-right: 20px;
+                flex-direction: row;
+                button {
+                  margin-left: 50px;
+                  width: 88%;
+                  span {
+                    align-self: auto;
+                  }
+                }
+              }
+            }
+          }
+          .tech-partner {
+            width: 100%;
+            .right-details .logo-box {
+              justify-content: space-between;
+              .partner-logo {
+                margin-right: 0px;
+                margin-bottom: 20px;
+                width: 40%;
+              }
+            }
+          }
+          .channel-partner {
+            .right-details .logo-box {
+              justify-content: space-between;
+              .partner-logo {
+                width: 44%;
+                margin-right: 0px;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
