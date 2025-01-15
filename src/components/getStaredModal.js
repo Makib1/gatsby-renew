@@ -7,7 +7,7 @@ import { navigate } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import "../static/style/componentStyle/getStartedModal.scss"
 
-// require('react-toastify/dist/ReactToastify.css');
+require('react-toastify/dist/ReactToastify.css');
 
 
 

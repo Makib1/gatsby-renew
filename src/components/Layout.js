@@ -5,14 +5,14 @@ import "../static/style/componentStyle/navbar.scss"
 import "../static/style/componentStyle/blogs.scss"
 import { Helmet } from "react-helmet"
 import Loadable from "@loadable/component";
-import FooterCmp from "./footerCmp"
+// import FooterCmp from "./footerCmp"
 
 
 
-// const Navbar = Loadable(() => import("./navbar"));
-// const NavMenu = Loadable(() => import("./nav-menu"));
-// const NavMobile = Loadable(() => import("./nav-mobile"));
-// const FooterCmp = Loadable(() => import("./footerCmp"));
+const Navbar = Loadable(() => import("./navbar"));
+const NavMenu = Loadable(() => import("./nav-menu"));
+const NavMobile = Loadable(() => import("./nav-mobile"));
+const FooterCmp = Loadable(() => import("./footerCmp"));
 
 
 export default function Layout({children }) {
@@ -46,12 +46,12 @@ export default function Layout({children }) {
             gtag('config', 'G-792M7HC5KQ'); `}
             </script>
         </Helmet>
-        {/* {isNavBarOpen && (
+        {isNavBarOpen && (
           <Navbar
             isNavBarOpen={isNavBarOpen}
             setIsNavBarOpen={setIsNavBarOpen}
           />
-        )}
+        )} 
         {!isNavBarOpen && (
           <NavMenu
             isNavBarOpen={isNavBarOpen}
@@ -64,7 +64,7 @@ export default function Layout({children }) {
             isNavBarOpen={isNavBarOpen}
             setIsNavBarOpen={setIsNavBarOpen}
           />
-        )} */}
+        )} 
         <main>{children}</main>
         <FooterCmp />
       </div>

@@ -1,51 +1,51 @@
-// .feature-details {
-//     .details-heading {
-//         display: flex;
-//         align-items: center;
+.feature-details {
+    .details-heading {
+        display: flex;
+        align-items: center;
 
-//         .number {
+        .number {
             
-//             padding-right: var(--heading-sm);
-//             p{
-//             color: #E4E4E4;
-//             font-size: var(--heading-md);
-//             font-weight: 300 !important;
-//             line-height: normal !important;
-//             }
-//         }
+            padding-right: var(--heading-sm);
+            p{
+            color: #E4E4E4;
+            font-size: var(--heading-md);
+            font-weight: 300 !important;
+            line-height: normal !important;
+            }
+        }
 
-//         .icon-image {
-//             padding-right: var(--heading-sm);
+        .icon-image {
+            padding-right: var(--heading-sm);
 
-//         }
+        }
 
-//         .text {
-//             color: #1E1E1E;
-//             font-family: Helvetica;
-//             font-size: var(--text-md);
-//             font-weight: 700 !important;
-//             line-height: normal !important;
-//             width: 30%;
-//         }
-//     }
+        .text {
+            color: #1E1E1E;
+            font-family: Helvetica;
+            font-size: var(--text-md);
+            font-weight: 700 !important;
+            line-height: normal !important;
+            width: 30%;
+        }
+    }
 
-//     p.paragraph {
-//         color: #828999;
-//         font-size: var(--text-sm);
-//         font-weight: 300;
-//         padding: var(--section-spacing-mini) 0px;
-//     }
+    p.paragraph {
+        color: #828999;
+        font-size: var(--text-sm);
+        font-weight: 300;
+        padding: var(--section-spacing-mini) 0px;
+    }
     
-// }
-// @media (max-width: 1023px){
-//     .feature-details .details-heading .text {
-//         width: 40%;
-//     }
-// }
+}
+@media (max-width: 1023px){
+    .feature-details .details-heading .text {
+        width: 40%;
+    }
+}
 
-// @media (max-width: 767px) {
-//     .feature-details .details-heading .text{
-//         width: unset;
-//         flex: 1;
-//     }
-// }
+@media (max-width: 767px) {
+    .feature-details .details-heading .text{
+        width: unset;
+        flex: 1;
+    }
+}
