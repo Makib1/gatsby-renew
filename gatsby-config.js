@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon:`src/static/favicon.ico`,
+        icon:`src/static/favicon.png`,
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
