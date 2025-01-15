@@ -1,226 +1,227 @@
-// .data-ai {
-//   .page-content {
-//     .banner-wrapper {
-//       padding-bottom: var(--section-spacing-sm);
-//       .page-wrapper {
-//         .page-banner {
-//           // .banner-header {
-//           //   // width: 75%;s
-//           //   // padding-left: var(--spacing-left);
-//           //   padding-bottom: var(--section-spacing-xmini);
-//           //   text-align: center;
-//           //   h1 {
-//           //     font-size: var(--heading-lg) !important;
-//           //   }
-//           // }
-//           // .paragraph{
-//           //   text-align: center;
-//           //   width: 75%;
-//           //   margin: 0 auto;
-//           //   p{
-//           //     font-size: var(--text-lg);
-//           //   }
-//           // }
-//           // .btn-area{
-//           //   padding-top: var(--section-spacing-mini);
-//           //   text-align: center;
-//           // }
-//           .desktop-image {
-//           }
-//           .mobile-image {
-//             display: none;
-//           }
-//         }
-//       }
-//     }
-//     .second-part {
-//       padding: var(--section-spacing-sm) 0px;
-//       .page-wrapper {
-//         .page-banner {
-//           .banner-header {
-//             // width: 75%;s
-//             // padding-left: var(--spacing-left);
-//             padding-bottom: var(--section-spacing-xmini);
-//             text-align: center;
-//             h1 {
-//               font-size: var(--heading-lg) !important;
-//             }
-//           }
-//           .paragraph {
-//             padding: 0px 10%;
-//             text-align: center;
-//             // width: 75%;
-//             margin: 0 auto;
-//             p {
-//               font-size: var(--text-sm);
-//             }
-//           }
-//           .btn-area {
-//             padding-top: var(--section-spacing-xmini);
-//             text-align: center;
-//           }
-//         }
-//       }
-//     }
-//     .our-offerings {
-//       padding: var(--section-spacing-sm) 0px;
-//       margin-bottom: var(--section-spacing-sm);
-//       .page-wrapper {
-//         .slider {
-//           position: relative;
-//           // .image-bg img {
-//           //   width: 30%; /* Ensure the background image takes full width */
-//           //   height: auto;
-//           //   display: block;
-//           // }
-
-//           // .slide-container {
-//           //   position: absolute;
-//           //   top: 45%;
-//           //   left: 54%;
-//           //   transform: translate(-50%, -50%);
-//           //   width: 100%; /* Adjust as needed */
-//           //   text-align: center;
-//           //   /* Optional: Add other styling like background or padding */
-//           // }
-//         }
-//         .slider-mobile {
-//           display: none;
-//         }
-//       }
-//     }
-//     .why-lumiq-aws {
-//       padding: var(--section-spacing-sm) 0px;
-//       .page-wrapper {
-//         .main-container {
-//           // padding-left: var(--spacing-left);
-//           .heading {
-//             text-align: center;
-//           }
-//           .para {
-//             padding-top: var(--section-spacing-xmini);
-//             p {
-//               font-size: var(--text-lg);
-//               text-align: center;
-//             }
-//           }
-//           ul {
-//             margin-top: var(--section-spacing-xmini);
-//             padding: 0px 12%;
-//             li {
-//               font-size: var(--text-sm);
-//               border-bottom: 0.1px solid rgb(119, 115, 115);
-//               padding: 5px 0px;
-//             }
-//           }
-//           :last-child {
-//             border-bottom: none;
-//           }
-//           .btn-area {
-//             padding-top: var(--section-spacing-xmini);
-//             text-align: center;
-//           }
-//         }
-//       }
-//     }
-
-//     .testimonials {
-//       padding: var(--section-spacing-sm) 0px;
-//       margin-bottom: var(--section-spacing-sm);
-//       .page-wrapper {
-//         .main-container {
-//           // padding-left: var(--spacing-left);
-//           .heading {
-//             text-align: center;
-//           }
-//           .para {
-//             padding-top: var(--section-spacing-xmini);
-//             p {
-//               font-size: var(--text-lg);
-//               text-align: center;
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     .CTA {
-//       padding: var(--section-spacing-sm) 0px;
-
-//       .page-wrapper {
-//         .main-container {
-//           text-align: center;
-
-//           h2 {
-//             font-size: var(--heading-md);
-//           }
-
-//           p {
-//             padding-top: 12px;
-//             font-size: var(--text-tmd);
-//             letter-spacing: var(--letter-spacing-default);
-//             line-height: var(--line-height-default-1);
-//           }
-
-//           .btn-area {
-//             padding-top: var(--section-spacing-xmini);
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media (max-width: 1600px) {
-//   .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
-//     padding: 0px 8%;
-//   }
-//   .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
-//     padding: 0px 10%;
-//   }
-// }
-// @media (max-width: 1440px) {
-//   .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
-//     padding: 0px 10%;
-//   }
-//   .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
-//     padding: 0px 12%;
-//   }
-// }
-// @media (max-width: 1366px) {
-//   .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
-//     padding: 0px 12%;
-//   }
-//   .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
-//     padding: 0px 14%;
-//   }
-// }
-// @media (max-width: 767px) {
-//   .data-ai .page-content .banner-wrapper .page-wrapper .page-banner {
-//     .desktop-image {
-//       display: none;
-//     }
-//     .mobile-image {
-//       display: block;
-//     }
-//   }
-
-//   .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
-//     padding: 0px 7%;
-//   }
-//   .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
-//     padding: 0px 9%;
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
-//     padding: 0px 2%;
-//   }
-//   .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
-//     padding: 0px 4%;
-//   }
-//   .offerings-governance-slider .fss-slider-area .offering-box {
-//     flex-direction: column;
-//   }
-// }
+.data-ai {
+    .page-content {
+      .banner-wrapper {
+        padding-bottom: var(--section-spacing-sm);
+        .page-wrapper {
+          .page-banner {
+            // .banner-header {
+            //   // width: 75%;s
+            //   // padding-left: var(--spacing-left);
+            //   padding-bottom: var(--section-spacing-xmini);
+            //   text-align: center;
+            //   h1 {
+            //     font-size: var(--heading-lg) !important;
+            //   }
+            // }
+            // .paragraph{
+            //   text-align: center;
+            //   width: 75%;
+            //   margin: 0 auto;
+            //   p{
+            //     font-size: var(--text-lg);
+            //   }
+            // }
+            // .btn-area{
+            //   padding-top: var(--section-spacing-mini);
+            //   text-align: center;
+            // }
+            .desktop-image {
+            }
+            .mobile-image {
+              display: none;
+            }
+          }
+        }
+      }
+      .second-part {
+        padding: var(--section-spacing-sm) 0px;
+        .page-wrapper {
+          .page-banner {
+            .banner-header {
+              // width: 75%;s
+              // padding-left: var(--spacing-left);
+              padding-bottom: var(--section-spacing-xmini);
+              text-align: center;
+              h1 {
+                font-size: var(--heading-lg) !important;
+              }
+            }
+            .paragraph {
+              padding: 0px 10%;
+              text-align: center;
+              // width: 75%;
+              margin: 0 auto;
+              p {
+                font-size: var(--text-sm);
+              }
+            }
+            .btn-area {
+              padding-top: var(--section-spacing-xmini);
+              text-align: center;
+            }
+          }
+        }
+      }
+      .our-offerings {
+        padding: var(--section-spacing-sm) 0px;
+        margin-bottom: var(--section-spacing-sm);
+        .page-wrapper {
+          .slider {
+            position: relative;
+            // .image-bg img {
+            //   width: 30%; /* Ensure the background image takes full width */
+            //   height: auto;
+            //   display: block;
+            // }
+  
+            // .slide-container {
+            //   position: absolute;
+            //   top: 45%;
+            //   left: 54%;
+            //   transform: translate(-50%, -50%);
+            //   width: 100%; /* Adjust as needed */
+            //   text-align: center;
+            //   /* Optional: Add other styling like background or padding */
+            // }
+          }
+          .slider-mobile {
+            display: none;
+          }
+        }
+      }
+      .why-lumiq-aws {
+        padding: var(--section-spacing-sm) 0px;
+        .page-wrapper {
+          .main-container {
+            // padding-left: var(--spacing-left);
+            .heading {
+              text-align: center;
+            }
+            .para {
+              padding-top: var(--section-spacing-xmini);
+              p {
+                font-size: var(--text-lg);
+                text-align: center;
+              }
+            }
+            ul {
+              margin-top: var(--section-spacing-xmini);
+              padding: 0px 12%;
+              li {
+                font-size: var(--text-sm);
+                border-bottom: 0.1px solid rgb(119, 115, 115);
+                padding: 5px 0px;
+              }
+            }
+            :last-child {
+              border-bottom: none;
+            }
+            .btn-area {
+              padding-top: var(--section-spacing-xmini);
+              text-align: center;
+            }
+          }
+        }
+      }
+  
+      .testimonials {
+        padding: var(--section-spacing-sm) 0px;
+        margin-bottom: var(--section-spacing-sm);
+        .page-wrapper {
+          .main-container {
+            // padding-left: var(--spacing-left);
+            .heading {
+              text-align: center;
+            }
+            .para {
+              padding-top: var(--section-spacing-xmini);
+              p {
+                font-size: var(--text-lg);
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+  
+      .CTA {
+        padding: var(--section-spacing-sm) 0px;
+  
+        .page-wrapper {
+          .main-container {
+            text-align: center;
+  
+            h2 {
+              font-size: var(--heading-md);
+            }
+  
+            p {
+              padding-top: 12px;
+              font-size: var(--text-tmd);
+              letter-spacing: var(--letter-spacing-default);
+              line-height: var(--line-height-default-1);
+            }
+  
+            .btn-area {
+              padding-top: var(--section-spacing-xmini);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1600px) {
+    .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
+      padding: 0px 8%;
+    }
+    .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
+      padding: 0px 10%;
+    }
+  }
+  @media (max-width: 1440px) {
+    .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
+      padding: 0px 10%;
+    }
+    .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
+      padding: 0px 12%;
+    }
+  }
+  @media (max-width: 1366px) {
+    .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
+      padding: 0px 12%;
+    }
+    .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
+      padding: 0px 14%;
+    }
+  }
+  @media (max-width: 767px) {
+    .data-ai .page-content .banner-wrapper .page-wrapper .page-banner {
+      .desktop-image {
+        display: none;
+      }
+      .mobile-image {
+        display: block;
+      }
+    }
+  
+    .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
+      padding: 0px 7%;
+    }
+    .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
+      padding: 0px 9%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .data-ai .page-content .second-part .page-wrapper .page-banner .paragraph {
+      padding: 0px 2%;
+    }
+    .data-ai .page-content .why-lumiq-aws .page-wrapper .main-container ul {
+      padding: 0px 4%;
+    }
+    .offerings-governance-slider .fss-slider-area .offering-box {
+      flex-direction: column;
+    }
+  }
+  

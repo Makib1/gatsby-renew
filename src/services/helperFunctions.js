@@ -1328,7 +1328,7 @@ export const destructureData=(data)=> {
   let objResult={};
 
   // Extract the journey array
-  const journeyArray = data?.awsFoundation?.awsFoundation?.journey || [];
+  const journeyArray = data?.allAwsFoundation?.nodes[0]?.journey || [];
 
   journeyArray.forEach((item,index) => {
     const { attributes } = item;

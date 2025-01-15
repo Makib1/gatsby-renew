@@ -18,10 +18,10 @@ const LumiqLifeArrowSlider =Loadable(()=>
   import("../components/lumiqLifeArrowSlider")
 )
 
-// const FinancialServiceSlider = Loadable(() =>
-//   import("../components/financial-service-slider")
-// )
-// const JoinOurTeam = Loadable(() => import("../components/join-our-team"))
+const FinancialServiceSlider = Loadable(() =>
+  import("../components/financial-service-slider")
+)
+const JoinOurTeam = Loadable(() => import("../components/join-our-team"))
 function CompanyPage(props) {
   const data = useStaticQuery(
     graphql`
@@ -280,9 +280,9 @@ function CompanyPage(props) {
         </div>
 
         <Underline />
-        {/* <FinancialServiceSlider /> */}
+        <FinancialServiceSlider />
         <Underline />
-        {/* <JoinOurTeam /> */}
+        <JoinOurTeam />
         <Underline />
         {/* address section */}
         <div className="section-address">

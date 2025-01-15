@@ -97,10 +97,10 @@ exports.sourceNodes = async ({ actions }) => {
       url: `${process.env.STRAPI_URL}/api/gen-ais/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
       type: "genai",
     },
-    // {
-    //   url: `${process.env.STRAPI_URL}/api/aws-foundations/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
-    //   type: "awsFoundation",
-    // },
+    {
+      url: `${process.env.STRAPI_URL}/api/aws-foundations/?pagination[start]=0&pagination[limit]=1000&[populate]=*`,
+      type: "awsFoundation",
+    },
     
   ];
   const responses = await Promise.all(

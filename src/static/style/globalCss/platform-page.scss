@@ -1,5 +1,5 @@
-@import "./hoverEffect.scss";
-@import "~video-react/styles/scss/video-react";
+@forward "./hoverEffect.scss";
+@forward "~video-react/styles/scss/video-react";
 
 .emp-products {
   .page-wrapper {

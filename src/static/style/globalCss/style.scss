@@ -1,9 +1,9 @@
+@forward  "../globalCss/hoverEffect.scss";
+@forward  "../globalCss/common.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "./hoverEffect.scss";
-@import "./common.scss";
 
 /* Common CSS End */
 

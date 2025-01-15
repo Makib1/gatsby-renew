@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from './src/themeContext';
-import Layout from './src/components/Layout';
+import {Layout} from './src/components/Layout';
 // import Layout from './src/components/Layout'; // Import your Layout component
 
 export const wrapPageElement = ({ element }) => {

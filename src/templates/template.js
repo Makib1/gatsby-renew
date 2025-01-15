@@ -129,9 +129,6 @@ const BlogTemplate = ({ pageContext }) => {
     setAuthor(data?.blogDetails?.data[0]?.attributes?.blogs?.data[0]?.attributes?.author || "");
     setTags(data?.blogDetails?.data[0]?.attributes?.blogs?.data[0]?.attributes?.tags || "");
     setMetaImage(data?.blogDetails?.data[0]?.attributes?.blogs?.data[0]?.attributes?.imageUrl || "");
-      console.log(author, tags, metaImage, data, "gggggggg");
-      // const blogHeader, blogContent;
-      // const [blogHeader, ...blogContent] = data?.blogDetails?.data[0]?.attributes?.insertBlog;
       const [header, ...content] = data?.blogDetails?.data[0]?.attributes?.insertBlog || [];
      setBlogHeader(header || {});
     setBlogContent(content || []);
