@@ -150,7 +150,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const blogs = result.data.allStrapiBlog.edges;
   console.log(JSON.stringify(blogs),"***************")
  
-  // Create pages for each blog
+  // Create pages for each blog:
   blogs.forEach(({ node }) => {
       createPage({
         path: `/resources/detailedBlog/${node.attributes.slug}`, // URL for the blog page
