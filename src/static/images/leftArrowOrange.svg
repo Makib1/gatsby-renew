@@ -1,0 +1,10 @@
+<svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden;">
+  <!-- First SVG -->
+  <path d="M1 0V18.3673H21" stroke="#F36B1D" stroke-width="2"/>
+
+  <!-- Second SVG attached to the right end with increased padding at the bottom -->
+  <svg x="21" y="12" width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6 6.36703L8.34465e-07 12.1111L8.34465e-07 0.622982L6 6.36703Z" fill="#F36B1D"/>
+  </svg>
+</svg>
+

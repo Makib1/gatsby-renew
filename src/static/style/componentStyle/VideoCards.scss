@@ -1,0 +1,157 @@
+//     .videos {
+//     .video-inner {
+//         display: flex;
+//         flex-wrap: wrap;
+//         gap: 20px;
+//     }
+// }
+
+// .video-link-a {
+//     position: relative;
+//     .video-cards {
+//         width: 27vw;
+//         p.tags{
+//             font-size: var(--text-sx);
+//             padding-top: 10px;
+//         }
+//         p.title {
+//             font-family: var(--font-helvicta);
+//             font-size: var(--text-sm);
+//             line-height: var(--line-height-default);
+//             letter-spacing: var(--letter-spacing-1);
+//             color: var(--color-black);
+//             font-weight: 600;
+//             padding: 10px 0px;
+//         }
+    
+//         p.description {
+//             font-weight: 300;
+//             font-size: var(--text-sm);
+//             color: #000;
+//         }
+
+//         p.read-more{
+//             margin-top: 20px;
+//         }
+//         p.read-more::before {
+//             content: "";
+//             left: 0;
+//             right: 0;
+//             bottom: 0;
+//             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACISURBVHgB7ZXRCYAgFEVv0QA2QY7QCDVJM7RJI7RRI9QGjWBPUDIhf3zv7x24H/LkHlBQAHAhIrQQRgUqUIEKXgzF/g05HjtLuSmjpMAFySQpiFnioMs21QhSdkpP2RoIfjbE6gUXeBiy9UWZwYTF9w5O1B15UcBengoOCJRHgS83EMJAsLzIA+RAHscJizaMAAAAAElFTkSuQmCC);
+//             background-size: cover;
+//             background-position: center;
+//             opacity: 0.5;
+//             z-index: -1;
+//             background-repeat: no-repeat;
+//             display: inline-block;
+//             height: 15px;
+//             width: 15px;
+//             background-size: 15px;
+//             position: relative;
+//             top: 0px;
+//             margin-right: 10px;
+//         }
+    
+//         /* Aspect ratio container */
+//         .iframe-container {
+//             position: relative;
+//             width: 100%;
+//             padding-bottom: 56.25%;
+//             /* This creates a 16:9 aspect ratio (9/16 * 100 = 56.25) */
+//             height: 0;
+//             overflow: hidden;
+//             iframe {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 border: 0;
+//             }
+//         }
+//         .video-cover {
+//             position: absolute;
+//             width: 100%;
+//             height: 100%;
+//             top: 0;
+//             left: 0;
+//         }
+    
+//         .video-modal {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             position: fixed;
+//             top: 0;
+//             right: 0;
+//             bottom: 0;
+//             left: 0;
+//             background-color: rgba(0, 0, 0, 0.8);
+//             z-index: 1000;
+    
+//             .white-cross-icon {
+//                 width: 20px;
+//                 height: 20px;
+//                 position: absolute;
+//                 right: 20px;
+//                 top: 20px;
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+
+// }
+
+
+
+// @media (max-width: 1720px){
+//     .video-link-a .video-cards {
+//         width: 22vw;
+//       }
+// } 
+// @media (max-width: 1600px){
+//     .video-link-a .video-cards {
+//         width: 28vw;
+//       }
+// } 
+// // @media (max-width: 1440px){
+// //     .video-link-a .video-cards {
+// //         width: 29vw;
+// //       }
+// // } 
+// // @media (max-width: 1399px){
+// //     .video-link-a .video-cards {
+// //         width: 29vw;
+// //       }
+// // } 
+// // @media (max-width: 1199px){
+// //     .video-link-a .video-cards {
+// //         width: 29vw;
+// //       }
+// // } 
+// @media (max-width: 1023px){
+//     .video-link-a .video-cards {
+//         width: 43vw;
+//       }
+// } 
+// // @media (max-width: 767px){
+// //     .video-cards {
+// //         width: 552px;
+
+// //         iframe {
+// //             width: 552px;
+// //             height: 290px;
+// //         }
+// //     }
+
+// // // .video-cards iframe {
+// // //     width: 552px;
+// // //     height: 310px;
+// // // }
+// // }
+// @media (max-width: 600px){
+//     .video-link-a .video-cards {
+//         width: 90vw;
+//     }
+// }

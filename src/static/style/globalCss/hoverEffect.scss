@@ -1,0 +1,235 @@
+// :root {
+//     --text-color: #1e2124;
+//     --hover-color: rgba(30, 33, 36, 0.33);
+//     --border-color: #8a8a8a;
+// }
+
+
+// // .homev2 .page-content .section-03 .main-container .right-content .content .data-into-product{
+// //     border-bottom: none !important; 
+// // }
+
+
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p {
+//     position: relative;
+//     border-bottom: none !important;
+//     overflow: hidden;
+//     transition: all .25s ease-in-out;
+// }
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:hover {
+//     color: var(--hover-color);
+// }
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:after,
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:before {
+//     bottom: 0;
+//     content: "";
+//     height: 1px;
+//     position: absolute;
+//     right: 0;
+//     width: 200%;
+// }
+
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:before {
+//     background: linear-gradient(to right, var(--text-color) 0 50%, var(--hover-color) 50% 100%);
+//     opacity: 0;
+//     transform: translateX(50%);
+//     transition: transform .25s ease-in-out, z-index 0s linear .25s, opacity 0s linear .25s;
+//     z-index: 1;
+// }
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:focus:before,
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:hover:before {
+//     opacity: 1 !important;
+//     transform: translateX(0);
+//     transition: z-index 0s linear .25s, opacity 0s linear .25s;
+//     z-index: 1;
+// }
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:after {
+//     background: linear-gradient(to right, var(--hover-color) 0 50%, var(--text-color) 50% 100%);
+//     transition: opacity 0s linear .25s;
+// }
+
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:focus:after,
+// .homev2 .page-content .footer-v2 .footer-details .platform .footer-contnet p:hover:after {
+//     opacity: 0 !important;
+//     transform: translateX(50%);
+//     transition: transform .25s ease-in-out, opacity 0s linear .25s;
+// }
+
+
+// //Hover Effect Hide Underline
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore {
+// //     position: relative;
+// //     border-bottom: none !important;
+// //     overflow-x: hidden;
+// // }
+
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:before {
+// //     transition: transform .25s ease-in-out;
+// // }
+
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:after {
+// //     transition: transform 0s linear .25s;
+// // }
+
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:after,
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:before {
+// //     background: #8a8a8a;
+// //     bottom: 0;
+// //     content: "";
+// //     height: 1px;
+// //     left: 0;
+// //     position: absolute;
+// //     width: 100%;
+// // }
+
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:focus:before,
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:hover:before {
+// //     transform: translateX(-100%);
+// //     transition: none;
+// // }
+
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:focus:after,
+// // .homev2 .page-content .section-04 .page-wrapper .main-container .emp-section .emp-content .emp-explore:hover:after {
+// //     transform: translateX(100%);
+// //     transition: transform .25s ease-in-out;
+// // }
+
+
+
+// // //Hover Effect Hide Underline H4
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points {
+// //     position: relative;
+// //     border-bottom: none !important;
+// //     overflow-x: hidden;
+// // }
+
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:before {
+// //     transition: transform .25s ease-in-out;
+// // }
+
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:after {
+// //     transition: transform 0s linear .25s;
+// // }
+
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:after,
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:before {
+// //     background: #8a8a8a;
+// //     bottom: 0;
+// //     content: "";
+// //     height: 1px;
+// //     left: 0;
+// //     position: absolute;
+// //     width: 100%;
+// // }
+
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:focus:before,
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:hover:before {
+// //     transform: translateX(-100%);
+// //     transition: none;
+// // }
+
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:focus:after,
+// // .homev2 .page-content .section-07 .page-wrapper .main-container .unique-to-lumiq-point .points:hover:after {
+// //     transform: translateX(100%);
+// //     transition: transform .25s ease-in-out;
+// // }
+
+
+// // Hover Effect Minus Line
+
+// .homev2 .page-content .section-10 .page-wrapper .main-container ul li,
+// .homev2 .page-content .section-10 .page-wrapper .main-container .buisiness-excellence ul li {
+//     overflow: hidden;
+//     padding-left: 0 !important;
+// }
+
+// .homev2 .page-content .section-10 .page-wrapper .main-container ul li a,
+// .homev2 .page-content .section-10 .page-wrapper .main-container .buisiness-excellence ul li a{
+//     font-family: "Helvetica";
+//     font-style: normal;
+//     font-weight: 300;
+//     font-size: 20px;
+//     line-height: 57px;
+//     letter-spacing: 0.04em;
+//     color: #000000;
+
+//     position: relative;
+//     transition: all .35s ease-in-out;
+//     display: block;
+//     text-decoration: none;
+//     border: 0;
+    
+// }
+
+// .homev2 .page-content .section-10 .page-wrapper .main-container ul li a::before,
+// .homev2 .page-content .section-10 .page-wrapper .main-container .buisiness-excellence ul li a:before {
+//     color: #8a8a8a;
+//     content: "\2014";
+//     height: 100%;
+//     padding-right: 0.28571em;
+//     position: absolute;
+//     right: 100%;
+// }
+
+// .homev2 .page-content .section-10 .page-wrapper .main-container ul li a:focus,
+// .homev2 .page-content .section-10 .page-wrapper .main-container ul li a:hover,
+// .homev2 .page-content .section-10 .page-wrapper .main-container .buisiness-excellence ul li a:focus, 
+// .homev2 .page-content .section-10 .page-wrapper .main-container .buisiness-excellence ul li a:hover {
+//     color: #8a8a8a;
+//     transform: translateX(1.14286em);
+// }
+
+
+
+
+// //000000
+// .homev2 .page-content .section-03 .main-container .right-content .content .data-into-product{
+//     border-bottom: none !important;
+// }
+
+
+// //Hover Effect Hide Underline H4 for Section-05
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details span {
+//     position: relative;
+//     border-bottom: none !important;
+//     overflow-x: hidden;
+// }
+
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details span:before {
+//     transition: transform .25s ease-in-out;
+// }
+
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details span:after {
+//     transition: transform 0s linear .25s;
+// }
+
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details span:after,
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details span:before {
+//     background: #8a8a8a;
+//     bottom: 0;
+//     content: "";
+//     height: 1px;
+//     left: 0;
+//     position: absolute;
+//     width: 100%;
+// }
+
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details .fs-link:focus span:before,
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details .fs-link:hover span:before {
+//     transform: translateX(-100%);
+//     transition: none;
+// }
+
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details .fs-link:focus span:after,
+// .homev2 .page-content .section-05 .page-wrapper .content .content-details .fs-link:hover span:after {
+//     transform: translateX(100%);
+//     transition: transform .25s ease-in-out;
+// }
+
+

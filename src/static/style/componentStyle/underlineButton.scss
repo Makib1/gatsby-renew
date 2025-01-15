@@ -1,0 +1,200 @@
+// // Right Arrow Btn
+// .right-arrow-btn {
+//     display: flex;
+//     justify-content: space-between;
+//     padding-bottom: 15px;
+//     width: 100%;
+
+//     p {
+//         font-family: var(--font-helvicta-regular);
+//         font-size: var(--text-sx);
+//         line-height: var(--line-height-default);
+//         letter-spacing: var(--letter-spacing-1);
+//         color: var(--color-grey);
+//         transition: ease all 0.3s;
+//         padding-right:50px ;
+//         a{
+//             font-family: var(--font-helvicta-regular);
+//             font-size: var(--text-sx);
+//             line-height: var(--line-height-default);
+//             letter-spacing: var(--letter-spacing-1);
+//             color: var(--color-grey);
+//             transition: ease all 0.3s;
+//             padding-right:50px ;
+//         }
+//     }
+
+//     &:hover p {
+//         color: #afb4be;
+//     }
+
+//     span {
+//         transition: ease all 0.3s;
+//         padding-right: 10px !important;
+
+//         font-family: var(--font-helvicta-regular);
+//         font-size: var(--text-sm);
+//         line-height: var(--line-height-default);
+//         letter-spacing: var(--letter-spacing-1);
+//         color: var(--color-grey);
+//         display: flex;
+//     }
+
+//     &:hover span {
+//         padding-right: 0px !important;
+//         color: #afb4be;
+//     }
+// }
+
+// //Hover Effect Hide Underline
+// .underline-remove-effect {
+//     position: relative;
+//     border-bottom: none !important;
+//     overflow-x: hidden;
+// }
+
+// .underline-remove-effect:before {
+//     transition: transform .25s ease-in-out;
+// }
+
+// .underline-remove-effect:after {
+//     transition: transform 0s linear .25s;
+// }
+
+// .underline-remove-effect:after,
+// .underline-remove-effect:before {
+//     background: #8a8a8a;
+//     bottom: 0;
+//     content: "";
+//     height: 1px;
+//     left: 0;
+//     position: absolute;
+//     width: 100%;
+// }
+
+// .underline-remove-effect:hover:before {
+//     transform: translateX(-100%);
+//     transition: none;
+// }
+
+// .underline-remove-effect:hover:after {
+//     transform: translateX(100%);
+//     transition: transform .25s ease-in-out;
+// }
+
+
+// @media (max-width: 600px) {
+//     .right-arrow-btn{
+//         p{
+//             font-size: var(--text-sm);
+//             a{
+//                 font-size: var(--text-sm);
+//             }
+//         }
+//         span{
+//             display: flex;
+//             align-self: end;
+//         }
+//     }
+// }
+
+// // Right Arrow Btn new butto fon genai
+// .right-arrow-btn-new {
+//     display: flex;
+//     justify-content: space-between;
+//     padding-bottom: 15px;
+//     width: 100%;
+
+//     p {
+//         font-family: var(--font-helvicta-regular);
+//         font-size: var(--text-sx);
+//         line-height: var(--line-height-default);
+//         letter-spacing: var(--letter-spacing-1);
+//         color: var(--color-grey);
+//         transition: ease all 0.3s;
+//         padding-right:50px ;
+//         a{
+//             font-family: var(--font-helvicta-regular);
+//             font-size: var(--text-sx);
+//             line-height: var(--line-height-default);
+//             letter-spacing: var(--letter-spacing-1);
+//             color: var(--color-grey);
+//             transition: ease all 0.3s;
+//             padding-right:50px ;
+//         }
+//     }
+
+//     &:hover p {
+//         color: #afb4be;
+//     }
+
+//     span {
+//         transition: ease all 0.3s;
+//         padding-right: 10px !important;
+
+//         font-family: var(--font-helvicta-regular);
+//         font-size: var(--text-sm);
+//         line-height: var(--line-height-default);
+//         letter-spacing: var(--letter-spacing-1);
+//         color: var(--color-grey);
+//         display: flex;
+//     }
+
+//     &:hover span {
+//         padding-right: 0px !important;
+//         color: #afb4be;
+//     }
+// }
+
+// //Hover Effect Hide Underline
+// .underline-remove-effect {
+//     position: relative;
+//     border-bottom: none !important;
+//     overflow-x: hidden;
+// }
+
+// .underline-remove-effect:before {
+//     transition: transform .25s ease-in-out;
+// }
+
+// .underline-remove-effect:after {
+//     transition: transform 0s linear .25s;
+// }
+
+// .underline-remove-effect:after,
+// .underline-remove-effect:before {
+//     background: #8a8a8a;
+//     bottom: 0;
+//     content: "";
+//     height: 1px;
+//     left: 0;
+//     position: absolute;
+//     width: 100%;
+// }
+
+// .underline-remove-effect:hover:before {
+//     transform: translateX(-100%);
+//     transition: none;
+// }
+
+// .underline-remove-effect:hover:after {
+//     transform: translateX(100%);
+//     transition: transform .25s ease-in-out;
+// }
+
+
+// @media (max-width: 600px) {
+//     .right-arrow-btn{
+//         p{
+//             font-size: var(--text-sm);
+//             a{
+//                 font-size: var(--text-sm);
+//             }
+//         }
+//         span{
+//             display: flex;
+//             align-self: end;
+//         }
+//     }
+// }
+

@@ -1,0 +1,10 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="56" height="56" rx="4" fill="black"/>
+<path d="M19 14.5H37M19 14.5L14.5 32.5M19 14.5L41.5 32.5M37 14.5L41.5 32.5M37 14.5L14.5 32.5M41.5 32.5L28 41.5L14.5 32.5" stroke="white" stroke-width="1.5"/>
+<path d="M14.5 32.5L41.5 32.5" stroke="white" stroke-width="1.5"/>
+<circle cx="19" cy="14.5" r="3.75" fill="black" stroke="white" stroke-width="1.5"/>
+<circle cx="14.5" cy="32.5" r="3.75" fill="black" stroke="white" stroke-width="1.5"/>
+<circle cx="28" cy="41.5" r="3.75" fill="black" stroke="white" stroke-width="1.5"/>
+<circle cx="41.5" cy="32.5" r="3.75" fill="black" stroke="white" stroke-width="1.5"/>
+<circle cx="37" cy="14.5" r="3.75" fill="black" stroke="white" stroke-width="1.5"/>
+</svg>

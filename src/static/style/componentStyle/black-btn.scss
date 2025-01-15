@@ -1,0 +1,66 @@
+// .black-btn {
+//     background: #000;
+//     border: 2px solid #000;
+//     padding: 22px 48px;
+//     transition: ease all 0.4s;
+
+//     span {
+//         display: block;
+//         color: #ffffff;
+//         font-size: var(--text-sm);
+//         line-height: 1;
+//         font-family: var(--font-helvicta-light);
+//         letter-spacing: var(--letter-spacing-1);
+//         padding-right: 60px;
+//         background: url(../../images/component-img/black-btn-arrow.svg)right center no-repeat;
+//         background-size: 15px;
+//     }
+//     &:hover{
+//         background: #ffffff;
+//         span{
+//             color: #000;
+//             background: url(../../images/component-img/white-button-arrow.svg)right center no-repeat;
+//         }
+//     }
+// }
+
+
+// @media (max-width: 1720px) {
+//     .black-btn{
+//         padding: 20px 45px;
+//     }
+// }
+
+// @media (max-width: 1600px) {
+//     .black-btn{
+//         padding: 18px 40px;
+//     }
+// }
+
+// @media (max-width: 1366px) {
+//     .black-btn{
+//         padding: 12px 20px;
+//     }
+// }
+
+// @media (max-width: 1199px) {
+//     .black-btn{
+//         padding: 14px 25px;
+//     }
+// }
+
+// @media (max-width: 1023px) {
+//     .black-btn span{
+//         padding-right: 30px;
+//     }
+// }
+
+// @media (max-width: 600px) {
+//     .black-btn {
+//         padding: 12px 10px;
+//         width: 100%;
+//         span{
+//             padding-right: 55px;
+//         }
+//     }
+// }

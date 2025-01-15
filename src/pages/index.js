@@ -2,11 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "../static/style/globalCss/common.scss"
+// import Layout from "../components/Layout"
+
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <h1>Whale watching for all</h1>
     <p>Come see extraordinary whales!</p>
@@ -22,7 +25,7 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
-  </Layout>
+  </>
 )
 
 export default IndexPage

@@ -1,0 +1,873 @@
+// .what-is-unique-about-lumiq {
+//   .page-content {
+//     .banner-wrapper {
+//       .page-wrapper {
+//         .page-banner {
+//           padding: var(--section-spacing-md) 0px;
+//           padding-top: 0px;
+//           padding-left: var(--spacing-left);
+//           .banner-header{
+//             padding: var(--section-spacing-md) 0px;
+//             padding-top: var(--section-spacing-mini);
+//             .header-h1-two-line{
+//                 h3.padding-top-60px{
+//                     padding: 0px ;
+//                     padding-top: var(--section-spacing-mini);
+//                 }
+//             }
+//           }
+//           .banner-header-mobile {
+//             display: none;
+//           }
+//           .banner-img-container {
+//             display: flex;
+//             .banner-img {
+//               width: 45%;
+//               padding: 30px;
+//               border: 1px solid var(--color-grey);
+//               height: auto;
+//               display: flex;
+//               align-items: center;
+//             }
+//             .banner-detaild-content {
+//               width: 55%;
+//               display: flex;
+//               table {
+//                 border-collapse: collapse;
+//                 width: 100%;
+//                 border: 1px solid black;
+//               }
+
+//               th,
+//               td {
+//                 border: 1px solid black;
+//                 padding: 5%;
+//                 text-align: center;
+//               }
+//               td {
+//                 background-color: var(--color-shade);
+//                 // padding-right: 0;
+//                 div {
+//                   h2 {
+//                     text-align: start;
+//                   }
+//                   p {
+//                     text-align: start;
+//                     font-family: var(--font-helvicta-light);
+//                     line-height: var(--line-height-default);
+//                     letter-spacing: var(--letter-spacing-1);
+//                     font-size: var(--text-sm);
+//                   }
+//                 }
+//               }
+
+//               th {
+//                 background-color: var(--color-black);
+//                 div {
+//                   color: #fff;
+//                   h2 {
+//                     text-align: start;
+//                     padding-left: 22%;
+//                     background: url(../../images/whatisUnique/Arrow.png) center left 15px no-repeat;
+//                     background-size: 120px;
+//                   }
+//                   p {
+//                     color: #fff;
+//                     text-align: start;
+//                     font-family: var(--font-helvicta-light);
+//                     line-height: var(--line-height-default);
+//                     letter-spacing: var(--letter-spacing-1);
+//                     font-size: var(--text-sm);
+//                     padding-left: 22%;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//           .banner-detailed-content-mobile{
+//             display: none;
+//           }
+//         }
+//       }
+//     }
+//     .firmly-rooted{
+//         .page-wrapper{
+//             .main-container{
+//                 display: flex;
+//                 padding: var(--section-spacing-md) 0px;
+//                 padding-left: var(--spacing-left);
+//                 .left-content{
+//                     width: 60%;
+//                     display:flex;
+//                     justify-content: space-between;
+//                     flex-direction: column;
+//                     p.heading-sm{
+//                         color: var(--color-grey);
+//                         font-family: var(--font-helvicta-light);
+//                     }
+//                     p.disable-mobile{
+//                       display: block;
+//                     }
+                   
+//                 }
+//                 .right-content{
+//                     width: 50%;
+//                     // margin-left: 5%;
+//                     padding-left: 40px;
+//                     p.active-mobile{
+//                       display: none;
+//                       padding-top: 40px;
+//                       font-size: var(--text-sm);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .unlocking-the-lumiq{
+//         .page-wrapper{
+//             .main-container{
+//                 display: flex;
+//                 padding: var(--section-spacing-md) 0px;
+//                 padding-left: var(--spacing-left);
+//                 flex-direction: column;
+//                 .header-unlocking{
+
+//                 }
+//                 .unlocking-inner-container{
+//                     padding-top: var(--section-spacing-md);
+//                     display: flex;
+//                     justify-content: space-between;
+//                     h3{
+//                         width: 30%;
+//                         font-family: var(--font-helvicta-light);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         font-size: var(--text-sm);
+//                     }
+//                     .unlocking-inner{
+//                         width: 65%;
+//                         display: flex;
+//                         flex-wrap: wrap;
+//                         gap: 30px;
+//                         .unlocking-inner-section{
+//                             display: flex;
+//                             align-items: center;
+//                             width: 45%;
+//                             background-color: var(--color-shade);
+//                             .unlocking-inner-icon{
+//                                 padding-left: 8%;
+//                                 padding-right: 10%;
+//                                 img{
+//                                     width: var(--section-spacing-mini)
+//                                 }
+//                             }
+//                         }
+
+//                     }
+//                 }
+//             }
+//         }
+
+//     }
+//     .differentiators-section{
+//         .page-wrapper{
+//             .differentiators-inner{
+//                 padding-top: var(--section-spacing-md);
+//                 padding-left: var(--spacing-left);
+//                 .differentiators-inner-container{
+//                     padding: var(--section-spacing-md) 0px;
+//                     padding-left: var(--spacing-left);
+//                     width: 85%;
+//                     p{
+//                         padding-bottom:var(--section-spacing-mini);
+//                         font-family: var(--font-helvicta-light);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         font-size: var(--text-sm);
+//                     }
+//                     .header-h1-one-line{
+//                         padding-bottom: 10px;
+//                     }
+//                     .black-sub-header{
+//                         color: var(--color-black);
+//                     }
+//                     .grey-sub-header{
+//                         color: var(--color-grey);
+                        
+//                     }
+//                     .differentiators-block{
+//                         background-color: var(--color-black);
+//                         border-radius: 30px ;
+//                         padding: 5% 3%;
+                        
+//                         p{
+//                             margin-bottom: 20px;
+//                             padding-bottom: 0px;
+//                             font-family: var(--font-helvicta-light);
+//                             line-height: var(--line-height-default);
+//                             letter-spacing: var(--letter-spacing-1);
+//                             font-size: var(--text-sm);
+//                             color: var(--color-white);
+//                             background: url(../../images/whatisUnique/smallArrow.png) center left no-repeat;
+//                             background-size: 30px;
+//                             padding-left: 6%;
+                           
+//                         }
+//                         p:last-of-type {
+//                           margin-bottom: 0;
+//                         }
+                        
+//                         h3{
+//                             color: #828999;
+//                             font-family: var(--font-helvicta);
+//                             line-height: var(--line-height-default);
+//                             letter-spacing: var(--letter-spacing-1);
+//                             font-size: var(--text-sm);
+//                             padding-bottom: var(--section-spacing-mini);
+//                             border-bottom: 1px solid #828999;
+//                             margin-bottom: var(--section-spacing-mini);
+//                         }
+//                         .customer-deploy{
+//                             padding-bottom: 30px;
+//                             .customer-deploy-heading{
+//                                 font-family: var(--font-helvicta);
+//                                 line-height: var(--line-height-default);
+//                                 letter-spacing: var(--letter-spacing-1);
+//                                 font-size: var(--text-sm);
+//                                 color: #F5F5F5;
+//                             }
+//                             .customer-deploy-details{
+//                                 font-family: var(--font-helvicta);
+//                                 line-height: var(--line-height-default);
+//                                 letter-spacing: var(--letter-spacing-1);
+//                                 font-size: var(--text-sx);
+//                                 color: #828999;
+//                                 background: none;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//   }
+// }
+// @media (max-width: 1720px) {
+
+// }
+
+// @media (max-width: 1600px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-header{
+//               .header-h1-two-line{
+//                   h3.padding-top-60px{
+//                   }
+//               }
+//             }
+//             .banner-img-container {
+//               .banner-img {
+//                width: 47%;
+//               }
+//               .banner-detaild-content {
+//                 table {
+//                 }
+  
+//                 th,
+//                 td {
+//                 }
+//                 td {
+//                   div {
+//                     h2 {
+//                     }
+//                     p {
+                      
+//                     }
+//                   }
+//                 }
+  
+//                 th {
+//                   div {
+//                     h2 {
+//                       background-size: 100px;
+//                       padding-left: 24%;
+//                     }
+//                     p {
+//                       padding-left: 24%;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                   .left-content{
+//                       p.heading-sm{
+//                         padding-right: 5%;
+//                       }
+//                   }
+//                   .right-content{
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 1440px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-header{
+//               .header-h1-two-line{
+//                   h3.padding-top-60px{
+//                   }
+//               }
+//             }
+//             .banner-img-container {
+//               .banner-img {
+//                width: 47%;
+//               }
+//               .banner-detaild-content {
+//                 table {
+//                 }
+  
+//                 th,
+//                 td {
+//                 }
+//                 td {
+//                   div {
+//                     h2 {
+//                     }
+//                     p {
+                      
+//                     }
+//                   }
+//                 }
+  
+//                 th {
+//                   div {
+//                     h2 {
+//                       background-size: 100px;
+//                       padding-left: 24%;
+//                     }
+//                     p {
+//                       padding-left: 24%;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                   .left-content{
+//                     padding-right: 5%;
+//                       p.heading-sm{
+//                         padding-right: 10%;
+//                         padding-bottom: 5%;
+//                       }
+//                   }
+//                   .right-content{
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 1366px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-header{
+//               .header-h1-two-line{
+//                   h3.padding-top-60px{
+//                   }
+//               }
+//             }
+//             .banner-img-container {
+//               .banner-img {
+//                width: 50%;
+//                padding: 0px 30px;
+//               }
+//               .banner-detaild-content {
+//                 width: 50%;
+//                 table {
+//                 }
+  
+//                 th,
+//                 td {
+//                 }
+//                 td {
+//                   div {
+//                     h2 {
+//                     }
+//                     p {
+                      
+//                     }
+//                   }
+//                 }
+  
+//                 th {
+//                   div {
+//                     h2 {
+//                       background-size: 80px;
+//                       padding-left: 24%;
+//                     }
+//                     p {
+//                       padding-left: 24%;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                   .left-content{
+//                     padding-right: 5%;
+//                       p.heading-sm{
+//                         padding-right: 10%;
+//                         padding-bottom: 5%;
+//                       }
+//                   }
+//                   .right-content{
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 1199px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-img-container {
+//               .banner-img {
+//                width: 50%;
+//                padding: 0px 30px;
+//               }
+//               .banner-detaild-content {
+//                 width: 50%;
+//                 table {
+//                 }
+  
+//                 th,
+//                 td {
+//                 }
+//                 td {
+//                   padding: 4%;
+//                   padding-right: 0%;
+//                   div {
+//                     h2 {
+//                     }
+//                     p {
+                      
+//                     }
+//                   }
+//                 }
+  
+//                 th {
+//                   div {
+//                     h2 {
+//                       background-size: 70px;
+//                       padding-left: 24%;
+//                     }
+//                     p {
+//                       padding-left: 24%;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                   .left-content{
+//                     padding-right: 5%;
+//                       p.heading-sm{
+//                         padding-right: 10%;
+//                         padding-bottom: 5%;
+//                       }
+//                   }
+//                   .right-content{
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 1023px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-header{
+//               .header-h1-two-line{
+//                 .heading-lg{
+//                   min-height: 105px;
+//                 }
+//               }
+//             }
+//             .banner-img-container {
+//               .banner-img {
+//                padding:30px;
+//               }
+//               .banner-detaild-content {
+//                 width: 50%;
+//                 table {
+//                 }
+  
+//                 th,
+//                 td {
+//                 }
+//                 td {
+//                   padding: 4%;
+//                   padding-right: 0%;
+//                   div {
+//                     h2 {
+//                     }
+//                     p {
+                      
+//                     }
+//                   }
+//                 }
+  
+//                 th {
+//                   div {
+//                     h2 {
+//                       background-size: 50px;
+//                       padding-left: 24%;
+//                     }
+//                     p {
+//                       padding-left: 24%;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                   .left-content{
+//                     padding-right: 2%;
+//                     .header-h1-three-line{
+//                       .heading-lg{
+//                         min-height: 155px;
+//                       }
+//                     }
+//                       p.heading-sm{
+//                         padding-right: 2%;
+//                         padding-bottom: 0%;
+//                       }
+//                   }
+//                   .right-content{
+//                   }
+//               }
+//           }
+//       }
+//       .unlocking-the-lumiq{
+//           .page-wrapper{
+//               .main-container{
+//                 .header-h1-two-line{
+//                   .heading-lg{
+//                     min-height: 105px;
+//                   }
+//                 }
+//                   .header-unlocking{
+  
+//                   }
+//                   .unlocking-inner-container{
+//                       h3{
+//                       }
+//                       .unlocking-inner{
+//                           .unlocking-inner-section{
+//                               .unlocking-inner-icon{
+//                                   img{
+//                                   }
+//                               }
+//                           }
+  
+//                       }
+//                   }
+//               }
+//           }
+  
+//       }
+//       .differentiators-section{
+//           .page-wrapper{
+//               .differentiators-inner{
+//                 .header-h1-one-line{
+//                   .heading-lg{
+//                     min-height: 52px;
+//                   }
+//                 }
+//                   .differentiators-inner-container{
+//                     padding-top: 35px;
+//                     width: 100%;
+//                     .header-h1-one-line{
+//                       .heading-lg{
+//                         min-height: 28px;
+//                       }
+//                     }
+//                       .differentiators-block{
+//                           p{
+//                             background-size: 25px;
+//                               :last-of-type {
+//                                 }
+//                           }
+//                           h3{
+//                           }
+//                           .customer-deploy{
+//                               .customer-deploy-heading{
+//                               }
+//                               .customer-deploy-details{
+//                               }
+//                           }
+//                       }
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 767px) {}
+// @media (max-width: 600px) {
+//   .what-is-unique-about-lumiq {
+//     .page-content {
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .banner-header{
+//               .header-h1-two-line{
+//                 .heading-lg{
+//                   min-height: 83px;
+//                 }
+//               }
+//             }
+//             .banner-img-container {
+//               flex-direction: column;
+//               .banner-img {
+//                 width: 100%;
+//                 padding:30px;
+//               }
+//               .banner-detaild-content {
+//                 width: 100%;
+//                 display: none;
+//                 table {
+//                 }
+//               }
+//               .banner-detailed-content-mobile{
+//                 display: inline;
+//                 div{
+//                   padding: 20px;
+//                 }
+//                 .content-details.header{
+//                   background-color: var(--color-black);
+//                   color: #fff;
+//                   font-family: var(--font-helvicta-light);
+//                   line-height: var(--line-height-default);
+//                   letter-spacing: var(--letter-spacing-1);
+//                   p{
+//                     color: var(--color-white);
+//                     font-family: var(--font-helvicta-light);
+//                     line-height: var(--line-height-default);
+//                     letter-spacing: var(--letter-spacing-1);
+//                   }
+
+//                 }
+//                 .content-details{
+//                   border: 1px solid var(--color-grey);
+//                   border-bottom: none;
+//                   color: #000;
+//                   font-family: var(--font-helvicta-light);
+//                   line-height: var(--line-height-default);
+//                   letter-spacing: var(--letter-spacing-1);
+//                   p{
+//                     color: #000;
+//                     font-family: var(--font-helvicta-light);
+//                     line-height: var(--line-height-default);
+//                     letter-spacing: var(--letter-spacing-1);
+//                     font-size: var(--text-sm);
+//                   }
+                  
+
+//                 }
+//                 .content-details:last-child{
+//                   border-bottom: 1px solid var(--color-grey);
+//                 }
+
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .firmly-rooted{
+//           .page-wrapper{
+//               .main-container{
+//                 flex-direction: column;
+//                   .left-content{
+//                     width: 100%;
+//                     padding-right: 2%;
+//                     .header-h1-three-line{
+//                       .heading-lg{
+//                         min-height: 155px;
+//                       }
+//                     }
+//                       p.heading-sm{
+//                         padding-right: 2%;
+//                         padding-bottom: 0%;
+//                       }
+//                       p.disable-mobile{
+//                         display: none;
+//                       }
+                      
+//                   }
+//                   .right-content{
+//                     width: 100%;
+//                     p.active-mobile{
+//                       display: block;
+//                       color: var(--color-grey);
+//                       font-family: var(--font-helvicta-light);
+//                     }
+//                   }
+//               }
+//           }
+//       }
+//       .unlocking-the-lumiq{
+//           .page-wrapper{
+//               .main-container{
+//                 .header-h1-two-line{
+//                   .heading-lg{
+//                     min-height: 84px;
+//                     br{
+//                       display: none;
+//                     }
+//                   }
+//                 }
+//                   .header-unlocking{
+  
+//                   }
+//                   .unlocking-inner-container{
+//                     flex-direction: column;
+//                     padding-top: 35px;
+//                       h3{
+//                         width: 100%;
+//                       }
+//                       .unlocking-inner{
+//                         width: 100%;
+//                         padding-top: 40px;
+//                         flex-direction: column;
+//                         gap: 20px;
+//                           .unlocking-inner-section{
+//                             width: 100%;
+//                             padding: 20px;
+//                             p{
+//                               font-size: var(--text-sx);
+//                             }
+//                               .unlocking-inner-icon{
+//                                   img{
+//                                   }
+                                  
+//                               }
+//                           }
+  
+//                       }
+//                   }
+//               }
+//           }
+  
+//       }
+//       .differentiators-section{
+//           .page-wrapper{
+//               .differentiators-inner{
+                
+//                 .underline-class{
+//                   .page-wrapper{
+//                     max-width: 100%;
+//                   }
+//                 }
+//                 .header-h1-one-line{
+//                   .heading-lg{
+//                     min-height: 42px;
+//                   }
+//                 }
+//                   .differentiators-inner-container{
+//                     padding-top: 35px;
+//                     width: 100%;
+//                     .header-h1-one-line{
+//                       .heading-md{
+//                         min-height: 28px;
+//                         .Typewriter .Typewriter__wrapper{
+//                           // font-size: 16px !important;
+
+//                         }
+//                       }
+//                     }
+//                     .black-sub-header{
+//                       padding-bottom: 20px;
+//                     }
+//                       .differentiators-block{
+//                         padding-top: 8%;
+//                         border-radius: 10px;
+//                         padding-left: 40px;
+//                           p{
+//                             background-size: 16px;
+//                             padding-left: 12%;
+//                             font-size: var(--text-sx);
+//                             margin-bottom: 15px;
+//                             line-height: 1.3;
+//                               :last-of-type {
+//                                 }
+//                           }
+//                           h3{
+//                             padding-top: 4%;
+//                             margin-bottom: 30px;
+//                             padding-bottom: 15px;
+//                           }
+//                           .customer-deploy{
+//                             padding-top: 0%;
+//                             padding-bottom: 25px;
+//                               .customer-deploy-heading{
+//                               }
+//                               .customer-deploy-details{
+//                               }
+//                           }
+//                       }
+//                   }
+//               }
+//           }
+//       }
+//     }
+//   }
+// }

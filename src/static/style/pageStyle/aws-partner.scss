@@ -1,0 +1,1579 @@
+// .aws-partner {
+//     .page-content {
+//       .banner-wrapper {
+//         padding-bottom: var(--section-spacing-sm);
+//         .page-wrapper {
+//           .page-banner {
+            
+//             .banner-header {
+//               // width: 75%;s
+//               padding-left: var(--spacing-left);
+//               padding-bottom: var(--section-spacing-xmini);
+//               text-align: center;
+//               h1 {
+//                 font-size: var(--heading-lg) !important;
+//               }
+//             }
+//             .paragraph{
+//               text-align: center;
+//               width: 75%;
+//               margin: 0 auto;
+//               p{
+//                 font-size: var(--text-sm);
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .devops-section {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             padding-left: var(--spacing-left);
+//             .aws-cons-right-details {
+//               width: 100%;
+//               gap: var(--section-spacing-mini);
+//               align-items: flex-start;
+//               .left-heading{
+//                 // width: 40%;
+//                 text-align: center;
+//                 h2{
+//                     font-size: var(--heading-md)
+//                 };
+//                 p.para{
+//                   padding-top: var(--section-spacing-xmini);
+//                   font-size: var(--text-sm);
+//                   line-height: var(--line-height-default-1);
+//                   letter-spacing: var(--line-height-default);
+//                 }
+//               }
+//               .right-image-click{
+//                 padding-top: var(--section-spacing-sm);
+//                 // width: 60%;
+//                 .images-list{
+//                   display: flex;
+//                   gap: var(--section-spacing-sm);
+//                   .child.image {
+//                     width: 23%;
+//                     transition: opacity 0.3s ease, filter 0.3s ease;
+//                   }
+                                    
+//                   .child.image.inactive img {
+//                     opacity: 0.5; /* Dim inactive images */
+//                     filter: grayscale(50%); /* Optional: add a grayscale filter */
+//                     cursor: pointer;
+//                   }
+                  
+//                   .child.image.active img {
+//                     opacity: 1;
+//                     filter: none; /* Remove any filters */
+//                   }
+//                 }
+//                 .image-content{
+//                   padding-top: 25px;
+//                   h3{
+//                     font-size: var(--text-tmd);
+//                     font-weight: 700 !important;
+//                   }
+//                   p{
+//                     padding-top: 6px;
+//                     font-size: var(--text-sm);
+//                     line-height: 1.3em;
+//                     letter-spacing: var(--line-height-default);
+//                   }
+//                 }
+                
+//               }
+              
+//             }
+//           }
+//         }
+//       }
+
+//       .proud-partners{
+//         .page-wrapper{
+//           .main-container{
+//             margin-bottom: var(--section-spacing-sm);
+//             .partner-image-desktop{
+//             }
+//             .partner-image-mobile{
+//               display: none;
+//             }
+//           }
+//         }
+//       }
+
+//       .awards-section{
+//         padding: var(--section-spacing-sm) 0px;
+//         .page-wrapper{
+//           .main-container{
+//             padding-left: var(--spacing-left);
+//             .paragraph{
+//               text-align: center;
+//             }
+//             p.para{
+//               padding-top: var(--section-spacing-xmini);
+//               font-size: var(--text-sm);
+//             }
+//             .award-heading{
+//               padding-top: var(--section-spacing-sm);
+//               padding-bottom: var(--section-spacing-mini);
+//               h3{
+//                 font-size: var(--heading-md);
+//               text-align: center;
+//               }
+//           }
+
+//           .awards{
+//             margin-top: var(--section-spacing-sm);
+//               display: flex;
+//               justify-content: center;
+//               gap: var(--section-spacing-sm);
+//               padding-right:  var(--section-spacing-lg);
+//               .awards-list{
+//                 width: 25%;
+//                 // height: 50%;
+//               }
+//           }
+//           .awd-slider{
+//             padding-top: var(--section-spacing-sm);
+//             display: none;
+//           }
+//           }
+//         }
+//       }
+//       .section-01 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             display: flex;
+//             padding-left: var(--spacing-left);
+//             .aws-cons-left-details {
+//               width: 45%;
+//               display: flex;
+//               flex-direction: column;
+//               // justify-content: space-between;
+//               padding-right: var(--section-spacing-md);
+//               p {
+//                 font-family: var(--font-helvicta-light);
+//                 line-height: var(--line-height-default);
+//                 letter-spacing: var(--letter-spacing-1);
+//                 color: var(--color-black);
+//                 font-size: var(--text-sm);
+//                 padding-top: var(--section-spacing-xmini);
+//               }
+//             }
+//             .aws-cons-right-details {
+//               width: 50%;
+//             }
+//           }
+//         }
+//       }
+
+//       .our-offerings{
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper{
+
+//           .slider {
+//             position: relative;
+//             .image-bg img {
+//               width: 30%; /* Ensure the background image takes full width */
+//               height: auto;
+//               display: block;
+//             }
+            
+//             .slide-container {
+//               position: absolute;
+//               top: 45%;
+//               left: 54%;
+//               transform: translate(-50%, -50%);
+//               width: 100%; /* Adjust as needed */
+//               text-align: center;
+//               /* Optional: Add other styling like background or padding */
+//             }
+//           }
+//           .slider-mobile{
+//             display: none;
+//           }
+          
+  
+//         }
+//       }
+  
+//       // .section-02 {
+//       //   padding: var(--section-spacing-md) 0px;
+//       //   .page-wrapper {
+//       //     .content {
+//       //       display: flex;
+//       //       flex-direction: column;
+//       //       padding-left: var(--spacing-left);
+//       //       .header-h1-two-line {
+//       //         width: 100%;
+//       //       }
+//       //       .aws-partner-list {
+//       //         display: flex;
+//       //         gap: 40px;
+//       //         flex-wrap: wrap;
+//       //         padding-top: var(--section-spacing-sm);
+//       //         align-items: center;
+//       //         .aws-icons {
+//       //           width: calc(15%);
+//       //           text-align: center;
+//       //           display: flex;
+//       //         }
+//       //       }
+//       //     }
+//       //   }
+//       // }
+//       .section-03 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+  
+//             h2 {
+//               width: 70%;
+//             }
+//             p {
+//               font-family: var(--font-helvicta-light);
+//               line-height: var(--line-height-default);
+//               letter-spacing: var(--letter-spacing-1);
+//               color: var(--color-grey);
+//               font-size: var(--text-sm);
+//               padding-top: var(--section-spacing-xm);
+//             }
+//             .aws-content {
+//               padding-top: var(--spacing-left);
+//               h2 {
+//                 width: 100%;
+//               }
+//               .customer-data-solution-cards {
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 justify-content: space-between;
+//                 .data-solution-card {
+//                   display: flex;
+//                   width: 27%;
+//                   flex-direction: column;
+//                   .data-solution-card-icon {
+//                     display: flex;
+//                     border-top: 1px solid #000;
+//                     border-bottom: 1px solid #000;
+//                     margin-top: var(--spacing-left);
+//                     padding: 30px 0px;
+//                     .data-icon {
+//                       width: 55px;
+//                       margin-right: 20%;
+//                     }
+//                     p {
+//                       padding: 0px;
+//                       font-family: var(--font-helvicta-bold);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       display: flex;
+//                       align-items: center;
+//                       width: 60%;
+//                     }
+//                   }
+//                   .data-solution-card-details {
+//                     // width: 80%;
+//                     p {
+//                       font-family: var(--font-helvicta-light);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       padding-top: var(--section-spacing-xm);
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-04 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             .header-h1-two-line {
+//               padding-bottom: var(--section-spacing-mini);
+//             }
+//             h2 {
+//               padding-left: var(--spacing-left);
+//             }
+//             .amazon-slider {
+//               padding-right: 40px;
+//               padding-left: 40px;
+//               .sliderBox {
+//                 .slick-arrow.slick-next::before {
+//                   content: "";
+//                   background: url(../../images/circle-arrow.svg) center center
+//                     no-repeat;
+//                   width: 36px;
+//                   height: 14px;
+//                   background-size: 36px;
+//                   display: inline-block;
+//                 }
+//                 .slick-arrow.slick-prev {
+//                   z-index: 11;
+//                 }
+//                 .slick-arrow.slick-prev::before {
+//                   content: "";
+//                   background: url(../../images/circle-arrow.svg) center center
+//                     no-repeat;
+//                   width: 36px;
+//                   height: 14px;
+//                   background-size: 36px;
+//                   rotate: -180deg;
+//                   display: inline-block;
+//                 }
+//                 .itembox {
+//                   .all-cards {
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     .aws-card-logo {
+//                       display: inline-flex;
+//                       text-align: center;
+//                       width: 180px;
+//                       margin: 40px;
+//                       margin-left: 80px;
+//                       margin-right: 80px;
+//                     }
+//                     div {
+//                       .aws-card-logo {
+//                         display: inline-flex;
+//                         margin-top: 20px;
+//                         margin-bottom: 10px;
+//                         margin-right: 20px;
+//                         text-align: center;
+//                         width: 16%;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-05 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             padding-right: var(--spacing-left);
+//             h2 {
+//               text-align: center;
+//             }
+//             .content {
+//               .aws-databases {
+//                 .sliderBox {
+//                   width: 100%;
+//                   .slick-arrow.slick-next::before {
+//                     content: "";
+//                     background: url(../../images/circle-arrow.svg) center
+//                       center no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 36px;
+//                     display: inline-block;
+//                   }
+//                   .slick-arrow.slick-prev {
+//                     z-index: 11;
+//                   }
+//                   .slick-arrow.slick-prev::before {
+//                     content: "";
+//                     background: url(../../images/Vector.svg) center center
+//                       no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 36px;
+//                     display: inline-block;
+//                   }
+//                   .itembox {
+//                     div {
+//                       // display: flex;
+//                       // justify-content: center;
+//                     }
+//                     .aws-database-details {
+//                       display: flex;
+//                       justify-content: center;
+//                       flex-direction: column;
+//                       .text-center {
+//                         display: flex;
+//                         justify-content: center;
+//                         padding-top: var(--section-spacing-md);
+//                         .aws-img {
+//                           width: 370px;
+//                           img {
+//                             transition: ease 0.3s all;
+//                             cursor: pointer;
+//                             -webkit-filter: grayscale(
+//                               100%
+//                             ); /* Safari 6.0 - 9.0 */
+//                             filter: grayscale(100%);
+//                           }
+//                           img:hover {
+//                             filter: grayscale(0);
+//                             -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+//                           }
+                          
+//                         }
+//                         .aws-glue{
+//                           width: 200px;
+//                           img{
+  
+//                           }
+//                         }
+//                       }
+//                       p {
+//                         font-family: var(--font-helvicta-light);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                         padding-top: var(--section-spacing-md);
+//                         width: 80%;
+//                         margin: 0 auto;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-06 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             h2 {
+//               // text-align: center;
+//             }
+//             .aws-case-studies {
+//               display: flex;
+//               padding-top: var(--section-spacing-sm);
+//               .aws-left-details {
+//                 width: 40%;
+//                 display: block;
+//                 ul {
+//                   list-style: none;
+//                   .case-studies-mobile-resp {
+//                     display: none;
+//                   }
+//                   li {
+//                     width: 80%;
+//                     // padding-left: 20px;
+//                     border-bottom: 1px solid var(--color-grey);
+//                     padding-bottom: 40px;
+//                     padding: var(--section-spacing-mini) 0px;
+//                     display: flex;
+//                     cursor: pointer;
+  
+//                     span {
+//                       margin-right: 40px;
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                       // width: 20%;
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-grey);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                   li.active-tab-black {
+//                     border-bottom: 1px solid var(--color-black);
+//                     span {
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       // width: 20%;
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               .aws-left-details-mobile {
+//                 width: 40%;
+//                 display: none;
+//                 ul {
+//                   list-style: none;
+//                   .case-studies-mobile-resp {
+//                     display: none;
+//                   }
+//                   li {
+//                     width: 80%;
+//                     // padding-left: 20px;
+//                     border-bottom: 1px solid var(--color-grey);
+//                     padding-bottom: 40px;
+//                     padding: var(--section-spacing-mini) 0px;
+//                     display: flex;
+//                     cursor: pointer;
+  
+//                     span {
+//                       margin-right: 20px;
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-grey);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                     p {
+//                       font-family: var(--font-helvicta);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                     }
+//                   }
+//                   li.active-tab-black {
+//                     border-bottom: 1px solid var(--color-black);
+//                     span {
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                     }
+  
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               .aws-right-details {
+//                 width: 60%;
+//                 padding-top: var(--section-spacing-mini);
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-07 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             h2 {
+//               // text-align: center;
+//             }
+//             .heading-mobile{
+//               display: none;
+//             }
+//             .card-container {
+//               padding-top: var(--section-spacing-md);
+//               display: block;
+//             }
+//             .card-container-mobile {
+//               display: none;
+//             }
+//           }
+//         }
+//       }
+//       .section-08 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             padding-right: var(--spacing-left);
+//             h3 {
+//               text-align: center;
+//               padding-bottom: var(--section-spacing-mini);
+//             }
+           
+//           }
+//           .get-started{
+//              display: flex;
+//              justify-content: center;
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+//   @media (max-width: 1720px) {
+//     .aws-partner {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image {
+//                   .banner-award-image {
+//                     .award-image {
+//                       .award-icon {
+//                         width: 150px;
+//                       }
+//                     }
+//                   }
+//                 }
+//                 // img {
+//                 //   padding: 10% 20%;
+//                 // }
+//               }
+//             }
+//           }
+//         }
+//         .section-03 {
+//           .page-wrapper {
+//             .main-container {
+//               .aws-content {
+//                 .customer-data-solution-cards {
+//                   .data-solution-card {
+//                     .data-solution-card-icon {
+//                       padding: 25px 0px;
+//                       .data-icon {
+//                         width: 45px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         width: 130px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1600px) {
+//     .aws-partner {
+//       .page-content {
+        
+//         .section-01 {
+//           padding: var(--section-spacing-md) 0px;
+//           .page-wrapper {
+//             .content {
+//               .aws-cons-left-details {
+//                 p {
+//                   padding-right: var(--section-spacing-xm);
+//                 }
+//               }
+//               .aws-cons-right-details {
+//                 width: 50%;
+//               }
+//             }
+//           }
+//         }
+//         .section-03 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               p {
+//               }
+//               .aws-content {
+//                 h2 {
+//                 }
+//                 .customer-data-solution-cards {
+//                   .data-solution-card {
+//                     .data-solution-card-icon {
+//                       padding: 25px 0px;
+//                       .data-icon {
+//                       }
+//                       p {
+//                       }
+//                     }
+//                     .data-solution-card-details {
+//                       // width: 80%;
+//                       p {
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         width: 120px;
+//                         margin: 40px;
+//                         margin-left: 60px;
+//                         margin-right: 60px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 45%;
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1440px) {
+//     .aws-partner {
+//       .page-content {
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         width: 120px;
+//                         margin: 40px;
+//                         margin-left: 60px;
+//                         margin-right: 60px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .itembox {
+//                       .aws-database-details {
+//                         .text-center {
+//                           .aws-img {
+//                             width: 270px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1366px) {
+//     .aws-partner {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image {
+//                   .banner-award-image {
+//                     .award-image {
+//                       .award-icon {
+//                         width: 130px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         width: 125px;
+//                         margin: 30px;
+//                         margin-left: 50px;
+//                         margin-right: 50px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .itembox {
+//                       .aws-database-details {
+//                         .text-center {
+//                           .aws-img {
+//                             width: 200px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 40%;
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+//   @media (max-width: 1199px) {
+//     .aws-partner {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image {
+//                   .banner-award-image {
+//                     // padding: 20px;
+//                     .award-image {
+//                       padding: 0 10px;
+//                       .award-icon {
+//                         width: 110px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-03 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//                 width: 60%;
+//               }
+//               .aws-content
+//                 .customer-data-solution-cards
+//                 .data-solution-card
+//                 .data-solution-card-icon {
+//                 padding: 20px 0px;
+//                 .data-icon {
+//                   width: 35px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   padding: 0 40px;
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         width: 70px;
+//                         margin: 20px;
+//                         margin-left: 35px;
+//                         margin-right: 35px;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+//                           .aws-img {
+//                             width: 200px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 40%;
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 1024px){
+//     .aws-partner .page-content .section-03 .page-wrapper .main-container .aws-content{
+//       padding-top: 40px;
+//       h2{
+//         padding-bottom: 40px;
+//       }
+//     }
+//         .aws-partner .page-content .proud-partners .page-wrapper .main-container .partner-image-mobile {
+//           display: block;
+//         }
+//         .aws-partner .page-content .proud-partners .page-wrapper .main-container .partner-image-desktop {
+//           display: none;
+//       }
+//     .aws-partner .page-content .our-offerings .page-wrapper .slider .image-bg img {
+//       width: 35%;
+//     }
+//     .aws-partner .page-content .our-offerings .page-wrapper .slider {
+//       display: none;
+//     }
+//     .aws-partner .page-content .our-offerings .page-wrapper .slider-mobile {
+//       display: block;
+//       padding-bottom: 20px;
+//     }
+//     .aws-partner .page-content .banner-wrapper .page-wrapper .page-banner .paragraph {
+//       width: 85%;
+//   }
+//   }
+
+
+//     @media (max-width: 767px) {
+//       .aws-partner .page-content .banner-wrapper .page-wrapper .page-banner .paragraph {
+//         width: 100%;
+//     }
+//     .aws-partner .page-content .devops-section .page-wrapper .content .aws-cons-right-details .right-image-click .images-list {
+//       display: flex;
+//       gap: var(--section-spacing-xmini);
+//   }
+//     }
+  
+//     @media (max-width: 600px) {
+//       .aws-partner {
+//         .page-content {
+//           .awards-section .page-wrapper .main-container {
+//               .awards {
+//                 display: none;
+//               }
+//               .awd-slider {
+//                 display: block;
+//               }
+//           }
+  
+//           .banner-wrapper .page-wrapper .page-banner .awd-slider {
+//             display: block;
+//           }
+//           .section-07 .page-wrapper .main-container {
+//             .heading-desktop {
+//               display: none;
+//             }
+        
+//             .heading-mobile {
+//               display: block;
+//             }
+//           }
+  
+//           .devops-section {
+//             .page-wrapper {
+//               .content {
+//                 .aws-cons-left-details {
+//                   padding-right: 0px;
+  
+//                   h2 {
+//                     min-height: 105px;
+  
+//                     br {
+//                       display: none;
+//                     }
+//                   }
+  
+//                   p {}
+//                 }
+  
+//                 .aws-cons-right-details {
+//                   flex-direction: column;
+//                   gap: var(--section-spacing-sm);
+  
+//                   .left-heading {
+//                     width: 100%;
+//                   }
+  
+//                   .right-image-click {
+//                     width: 100%;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-01 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .content {
+//                 display: flex;
+//                 flex-direction: column-reverse;
+  
+//                 .aws-cons-left-details {
+//                   width: 100%;
+//                   padding-right: 0px;
+//                   padding-top: var(--section-spacing-sm);
+  
+//                   p {
+//                     line-height: var(--line-height-default-1);
+//                     padding-top: 15px !important;
+//                     padding-left: var(--section-spacing-md);
+//                   }
+  
+//                   h2 {
+//                     font-size: var(--heading-lg) !important;
+//                     min-height: 124px;
+  
+//                     br {
+//                       display: none;
+//                     }
+//                   }
+//                 }
+  
+//                 .aws-cons-right-details {
+//                   width: 100%;
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-03 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .main-container {
+//                 padding: 0px;
+//                 padding-left: var(--spacing-left);
+//                 padding-left: var(--section-spacing-md);
+  
+//                 h2 {
+//                   width: 80%;
+//                   min-height: 125px;
+//                 }
+  
+//                 p {
+//                   line-height: var(--line-height-default-1);
+//                   padding-top: var(--section-spacing-lg);
+//                 }
+  
+//                 .aws-content {
+//                   padding-top: var(--section-spacing-lg);
+  
+//                   h2 {
+//                     width: 100%;
+//                     font-size: var(--heading-lg) !important;
+//                     min-height: 125px;
+//                   }
+  
+//                   .customer-data-solution-cards {
+  
+//                     // padding-top: var(--section-spacing-sm);
+//                     .data-solution-card {
+//                       display: flex;
+//                       width: 100%;
+//                       flex-direction: column;
+//                       padding-top: var(--section-spacing-lg);
+//                       padding-bottom: var(--section-spacing-xm);
+  
+//                       .data-solution-card-icon {
+//                         margin-top: var(--spacing-left);
+//                         padding: 20px 0px;
+  
+//                         .data-icon {
+//                           width: 40px;
+//                         }
+  
+//                         p {
+//                           line-height: var(--line-height-default-1);
+//                         }
+//                       }
+  
+//                       .data-solution-card-details {
+  
+//                         // width: 80%;
+//                         p {
+//                           line-height: var(--line-height-default-1);
+//                           padding-top: var(--section-spacing-xm);
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-04 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .main-container {
+//                 h2 {
+//                   text-align: start;
+//                   padding-left: var(--section-spacing-md);
+//                 }
+  
+//                 .header-h1-two-line {
+//                   padding-bottom: 0px;
+  
+//                   h2 {
+//                     min-height: 165px;
+//                   }
+//                 }
+  
+//                 .amazon-slider {
+//                   padding-top: var(--section-spacing-lg);
+//                   padding-bottom: var(--section-spacing-xm);
+//                   padding-right: 25px;
+//                   padding-left: 25px;
+  
+//                   .slick-list {
+//                     width: 90%;
+  
+//                     .slick-slide {
+//                       img {
+//                         border-radius: 5px;
+//                       }
+//                     }
+//                   }
+  
+//                   .sliderBox {
+//                     padding: 0px;
+  
+//                     .slick-slider {
+//                       display: flex;
+//                       justify-content: center;
+//                     }
+  
+//                     .slick-arrow.slick-next::before {
+//                       content: "";
+//                       background: url(../../images/circle-arrow.svg) center center no-repeat;
+//                       width: 36px;
+//                       height: 14px;
+//                       background-size: 20px;
+//                       display: inline-block;
+//                     }
+  
+//                     .slick-arrow.slick-prev {
+//                       z-index: 11;
+//                     }
+  
+//                     .slick-arrow.slick-prev::before {
+//                       content: "";
+//                       background: url(../../images/circle-arrow.svg) center center no-repeat;
+//                       width: 36px;
+//                       height: 14px;
+//                       background-size: 20px;
+//                       rotate: -180deg;
+//                       display: inline-block;
+//                     }
+  
+//                     .itembox {
+//                       .all-cards {
+//                         .aws-card-logo {
+//                           width: 60px;
+//                           margin: 10px;
+//                         }
+  
+//                         div {
+//                           .aws-card-logo {
+//                             margin-top: 20px;
+//                             margin-bottom: 10px;
+//                             margin-right: 20px;
+//                             max-width: 16%;
+//                           }
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-05 {
+//             padding-bottom: var(--section-spacing-lg);
+//             padding-top: 0px;
+  
+//             .page-wrapper {
+//               .main-container {
+//                 padding: 0px;
+  
+//                 h2 {
+//                   font-size: var(--text-sm) !important;
+//                 }
+  
+//                 .content {
+//                   .aws-databases {
+//                     padding-top: var(--section-spacing-lg);
+//                     padding-bottom: var(--section-spacing-xm);
+//                     padding-right: 25px;
+//                     padding-left: 25px;
+  
+//                     .sliderBox {
+//                       padding: 0px;
+//                       width: 100%;
+  
+//                       .slick-arrow.slick-next::before {
+//                         width: 26px;
+//                         background-size: 20px;
+//                       }
+  
+//                       .slick-arrow.slick-prev {}
+  
+//                       .slick-arrow.slick-prev::before {
+//                         width: 26px;
+//                         background-size: 20px;
+//                       }
+  
+//                       .itembox {
+//                         div {}
+  
+//                         .aws-database-details {
+//                           .text-center {
+//                             .aws-img {
+//                               width: 170px;
+  
+//                               img {
+//                                 transition: ease 0.3s all;
+//                                 cursor: pointer;
+//                                 -webkit-filter: grayscale(0);
+//                                 /* Safari 6.0 - 9.0 */
+//                                 filter: grayscale(0);
+//                               }
+//                             }
+  
+//                             .aws-glue {
+//                               width: 100px;
+//                             }
+//                           }
+  
+//                           p {
+//                             line-height: var(--line-height-default-1);
+//                             color: var(--color-grey);
+//                             width: 80%;
+//                             text-align: center;
+//                           }
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-06 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .main-container {
+//                 padding: 0px;
+//                 padding-left: var(--spacing-left);
+//                 padding-left: 40px;
+  
+//                 h2 {
+//                   text-align: start;
+//                 }
+  
+//                 .aws-case-studies {
+//                   flex-direction: column;
+//                   padding-top: var(--section-spacing-sm);
+  
+//                   .aws-left-details {
+//                     display: none;
+//                   }
+  
+//                   .aws-left-details-mobile {
+//                     display: block;
+//                     width: 100%;
+  
+//                     ul {
+//                       list-style: none;
+//                       padding-right: 10px;
+  
+//                       .case-studies-mobile-resp {
+//                         display: block;
+//                       }
+  
+//                       li {
+//                         width: 100%;
+//                         border-bottom: 1px solid var(--color-grey);
+//                         padding-bottom: 40px;
+//                         padding: var(--section-spacing-xmini) 0px;
+//                         display: flex;
+//                         flex-direction: column;
+//                         cursor: pointer;
+  
+//                         span {
+//                           margin-right: 20px;
+//                           font-family: var(--font-helvicta);
+//                           letter-spacing: var(--letter-spacing-1);
+//                           color: var(--color-grey);
+//                           font-size: var(--text-sm);
+//                         }
+  
+//                         div {
+//                           display: flex;
+  
+//                           p {
+//                             line-height: var(--line-height-default-1);
+//                             letter-spacing: var(--letter-spacing-1);
+//                           }
+  
+//                           p:last-child {
+//                             margin-left: 20px;
+//                           }
+//                         }
+  
+//                         .read-more {
+//                           margin-left: 30px;
+//                           margin-top: 20px;
+//                           background: url("../../images/left-arrow-grey.svg") left top -1px no-repeat;
+//                           background-size: 15px;
+//                           padding-left: 30px;
+//                         }
+//                       }
+  
+//                       li.active-tab-black {
+//                         border-bottom: none;
+//                         padding-bottom: 60px;
+  
+//                         span {
+//                           font-family: var(--font-helvicta);
+//                           letter-spacing: var(--letter-spacing-1);
+//                           color: var(--color-black);
+//                           font-size: var(--text-sm);
+//                         }
+  
+//                         div {
+//                           p {
+//                             font-family: var(--font-helvicta);
+//                             line-height: var(--line-height-default-1);
+//                             color: var(--color-black);
+//                             font-size: var(--text-sm);
+//                           }
+//                         }
+//                       }
+//                     }
+//                   }
+  
+//                   .aws-right-details {
+//                     display: none;
+//                     width: 100%;
+//                     padding-top: var(--section-spacing-mini);
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-07 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .main-container {
+//                 padding: 0px;
+//                 padding-left: 40px;
+  
+//                 h2 {
+//                   text-align: start;
+//                 }
+  
+//                 // .card-container {
+//                 //   padding-top: var(--section-spacing-md);
+//                 //   display: none;
+//                 // }
+  
+//                 .card-container-mobile {
+//                   display: block;
+//                   padding: var(--section-spacing-sm) 0px;
+//                   padding-bottom: 0px;
+  
+//                   .client-card {
+//                     .client-review {
+//                       .text {
+//                         padding-left: 0px;
+//                         padding-top: 60px;
+//                       }
+//                     }
+//                   }
+  
+//                   .testimonialDesktop {
+//                     display: flex;
+//                     overflow-x: scroll;
+//                     -ms-overflow-style: none;
+//                     /* IE and Edge */
+//                     scrollbar-width: none;
+//                     /* Firefox */
+//                   }
+  
+//                   .testimonialDesktop::-webkit-scrollbar {
+//                     display: none;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+  
+//           .section-08 {
+//             padding: var(--section-spacing-lg) 0px;
+  
+//             .page-wrapper {
+//               .content {
+//                 padding: 0px;
+//                 text-align: center;
+  
+//                 h3 {
+//                   text-align: start;
+//                   padding-bottom: var(--section-spacing-mini);
+//                 }
+  
+//                 div {  
+//                   a {
+//                     width: 100%;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }

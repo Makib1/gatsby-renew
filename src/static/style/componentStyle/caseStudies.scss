@@ -1,0 +1,58 @@
+// p {
+//   font-family: var(--font-helvicta-light);
+//   line-height: var(--line-height-default);
+//   letter-spacing: var(--letter-spacing-1);
+//   color: var(--color-black);
+//   font-size: var(--text-mini);
+//   span {
+//     padding-right: 30px;
+//     font-family: var(--font-helvicta-light);
+//     line-height: var(--line-height-default);
+//     letter-spacing: var(--letter-spacing-1);
+//     color: var(--color-black);
+//     font-size: var(--text-mini);
+//   }
+// }
+// .first-para{
+//   p {
+//     font-family: var(--font-helvicta-light);
+//     line-height: var(--line-height-default-1);
+//     letter-spacing: var(--letter-spacing-1);
+//     color: var(--color-grey);
+//     font-size: var(--text-sm);
+//     padding-bottom: var( --section-spacing-mini);
+//     p{
+//         padding: 0px;
+//     }
+//   }
+// }
+// .aws-problem {
+//   h3 {
+//     // padding-top: var(--section-spacing-xm);
+//   }
+//   p {
+//     font-family: var(--font-helvicta-light);
+//     line-height: var(--line-height-default-1);
+//     letter-spacing: var(--letter-spacing-1);
+//     color: var(--color-grey);
+//     font-size: var(--text-sm);
+//     padding: var( --section-spacing-mini) 0px;
+//     p{
+//         padding: 0px;
+//     }
+//   }
+//   .mobile-close-button{
+//     display: none;
+//   }
+// }
+// @media (max-width:600px){
+//  .aws-problem{
+//   .mobile-close-button{
+//     padding: 50px 0px 50px 30px;
+//     display: block;
+//     background: url('../../images/upArrow.svg') center  no-repeat;
+//     background-size: 35px;
+//     border-bottom: 1px solid #000;
+//   }
+//  }
+// }

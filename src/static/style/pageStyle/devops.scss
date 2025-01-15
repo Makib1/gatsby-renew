@@ -1,0 +1,2006 @@
+// .devops-page {
+//     .page-content {
+
+//       .banner-wrapper {
+//         .page-wrapper {
+//           .page-banner {
+//             .image-container-header {
+//               .banner-image{
+//                 background: url(../../images/aws-page/aws-bg.webp) center
+//                 center no-repeat;
+//                 // background-size:100%;
+//                 padding: 10% 20%;
+//                 .banner-award-image{
+//                   background: url(../../images/aws-page/bg.svg) center
+//                     center no-repeat;
+//                   display: flex;
+//                   justify-content: space-around;
+//                   padding: var(--section-spacing-mini);
+//                   .award-image{
+//                     width: 50%;
+//                     // padding: 0 var(--section-spacing-mini);
+//                     .award-icon{
+//                       width: 180px;
+//                       margin: 0 auto;
+//                     }
+//                     p{
+//                       font-family: var(--font-helvicta-light);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: #fff;
+//                       font-size: var(--text-sm);
+//                       padding-top: var(--section-spacing-xm);
+//                       text-align: center;
+//                     }
+//                   }
+//                   .award-image:first-child{
+//                     border-right: 1px solid #fff;
+//                   }
+//                 }
+  
+//               }
+//               // img {
+//               //   padding: 10% 20%;
+//               // }
+//             }
+//             .banner-bottom{
+//               display: flex;
+//               padding-bottom: var(--section-spacing-lg);
+//               .banner-header {
+//                 width: 50%;
+//                 padding-left: var(--spacing-left);
+//                 padding-top: 0px;
+//                 padding-bottom: 0px;
+//                 h1 {
+//                   // padding: var();
+//                   &:focus {
+//                     outline: none;
+//                   }
+//                 }
+//                 .right-arrow-btn.underline-remove-effect {
+//                   width: 50%;
+//                   margin-top: var(--section-spacing-xm);
+//                 }
+//               }
+//               .banner-bottom-img{
+//                 width: 50%;
+//               }
+//             }
+            
+//             .banner-image-section{
+//               padding-bottom: var(--section-spacing-lg);
+//             }
+//           }
+//         }
+//       }
+//       .section-01 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             display: flex;
+//             padding-left: var(--spacing-left);
+//             .aws-cons-left-details {
+//               width: 100%;
+//               display: flex;
+//               flex-direction: column;
+//               justify-content: space-between;
+//               padding-right: var(--section-spacing-md);
+//               p {
+//                 font-family: var(--font-helvicta-light);
+//                 line-height: var(--line-height-default);
+//                 letter-spacing: var(--letter-spacing-1);
+//                 color: var(--color-black);
+//                 font-size: var(--text-sm);
+//                 padding-top: var(--section-spacing-xm);
+//                 padding-right: var(--section-spacing-md);
+//               }
+//               .p2{
+//                 padding-top: var(--section-spacing-mini);
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-zig-zag-header{
+//         .page-wrapper{
+//             .content{
+//                 padding: var(--section-spacing-md);
+//                 padding-bottom: 0px;
+//                 padding-left: var(--section-spacing-md);
+//                 .piller{
+
+//                 }
+//             }
+//         }
+//       }
+//       .aws-cons-left-details{
+//         .p1{
+//             padding-top: var(--section-spacing-mini);
+           
+//         }
+        
+//       }
+//       .piller{
+//         padding-top: var(--section-spacing-lg);
+//         .section-zig-zag {
+//           padding-bottom: 0px;
+//           display: flex;
+//           justify-content: space-between;
+//           padding-bottom: var(--section-spacing-lg);
+//               .aws-cons-left-details {
+//                 width: 55%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 padding-right: var(--section-spacing-mini);
+//                 h2{
+//                   font-family: var(--font-helvicta-light);
+//                   span{
+//                     color: var(--color-grey);
+//                   }
+//                 }
+//                 ul{
+//                   padding-top: var(--section-spacing-sm);
+//                   padding-left: 5%;
+//                   li{
+//                     font-family: var(--font-helvicta-light);
+//                     line-height: var(--line-height-default-1);
+//                     letter-spacing: var(--letter-spacing-1);
+//                     color: var(--color-grey);
+//                     font-size: var(--text-sm);
+//                     list-style: disc;
+                    
+//                   }
+//                 }
+//               }
+//               .aws-cons-right-details {
+//                 width: 30%;
+//                 display: flex;
+//                 align-items: flex-end;
+//               }
+//         }
+//       }
+//       .section-zig-zag-1 {
+//         // padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             display: flex;
+//             padding-left: var(--spacing-left);
+//             .aws-cons-left-details {
+//               width: 50%;
+//               display: flex;
+//               flex-direction: column;
+//               justify-content: center;
+//               padding-right: var(--section-spacing-md);
+//               p {
+//                 font-family: var(--font-helvicta-light);
+//                 line-height: var(--line-height-default);
+//                 letter-spacing: var(--letter-spacing-1);
+//                 color: var(--color-black);
+//                 font-size: var(--text-sm);
+//               }
+//             }
+//             .aws-cons-right-details {
+//               width: 45%;
+//             }
+//           }
+//         }
+//       }
+//       .section-zig-zag-last{
+//         padding-bottom: var(--section-spacing-md);
+//       }
+      
+//       .section-02 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             display: flex;
+//             flex-direction: row;
+//             flex-wrap: wrap;
+//             padding-left: var(--spacing-left);
+//             .header-h1-two-line{
+//               width: 45%;
+//             }
+//             .aws-partner-list {
+//               display: flex;
+//               gap: 40px;
+//               width: 55%;
+//               flex-wrap: wrap;
+//               // .aws-icons {
+//               //   width: 160px;
+//               // }
+//               .aws-icons {
+//                 width: calc(33% - 10px);
+//                 // max-width: 200px; 
+//                 text-align: center;
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-03 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+  
+//             h2 {
+//               width: 70%;
+//             }
+//             p {
+//               font-family: var(--font-helvicta-light);
+//               line-height: var(--line-height-default);
+//               letter-spacing: var(--letter-spacing-1);
+//               color: var(--color-grey);
+//               font-size: var(--text-sm);
+//               padding-top: var(--section-spacing-xm);
+//             }
+//             .aws-content {
+//               padding-top: var(--spacing-left);
+//               h2 {
+//                 width: 100%;
+//               }
+//               .customer-data-solution-cards {
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 justify-content: space-between;
+//                 .data-solution-card {
+//                   display: flex;
+//                   width: 27%;
+//                   flex-direction: column;
+//                   .data-solution-card-icon {
+//                     display: flex;
+//                     border-top: 1px solid #000;
+//                     border-bottom: 1px solid #000;
+//                     margin-top: var(--spacing-left);
+//                     padding: 30px 0px;
+//                     .data-icon {
+//                       width: 55px;
+//                       margin-right: 20%;
+//                     }
+//                     p {
+//                       padding: 0px;
+//                       font-family: var(--font-helvicta-bold);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       display: flex;
+//                       align-items: center;
+//                       width: 60%;
+//                     }
+//                   }
+//                   .data-solution-card-details {
+//                     // width: 80%;
+//                     p {
+//                       font-family: var(--font-helvicta-light);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       padding-top: var(--section-spacing-xm);
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-04 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             .header-h1-two-line{
+//               padding-bottom: var(--section-spacing-mini);
+//             }
+//             h2 {
+//               padding-left: var(--spacing-left);
+//             }
+//             .amazon-slider {
+//               padding-right: 40px;
+//               padding-left: 40px;
+//               .sliderBox {
+//                 .slick-arrow.slick-next::before {
+//                   content: "";
+//                   background: url(../../images/circle-arrow.svg) center
+//                     center no-repeat;
+//                   width: 36px;
+//                   height: 14px;
+//                   background-size: 36px;
+//                   display: inline-block;
+//                 }
+//                 .slick-arrow.slick-prev {
+//                   z-index: 11;
+//               }
+//                 .slick-arrow.slick-prev::before {
+//                   content: "";
+//                   background: url(../../images/circle-arrow.svg) center center no-repeat;
+//                   width: 36px;
+//                   height: 14px;
+//                   background-size: 36px;
+//                   rotate: -180deg;
+//                   display: inline-block;
+//                 }
+//                 .itembox {
+//                   .all-cards {
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: space-around;
+//                     .aws-card-logo {
+//                       display: inline-flex;
+//                       text-align: center;
+//                       max-width: 180px;
+//                       margin: 20px;
+//                     }
+//                     div {
+//                       .aws-card-logo {
+//                         display: inline-flex;
+//                         margin-top: 20px;
+//                         margin-bottom: 10px;
+//                         margin-right: 20px;
+//                         text-align: center;
+//                         max-width: 16%;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-05 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             padding-right: var(--spacing-left);
+//             h2 {
+//               text-align: center;
+//             }
+//             .content {
+//               .aws-databases {
+//                 .sliderBox {
+//                   width: 100%;
+//                   .slick-arrow.slick-next::before {
+//                     content: "";
+//                     background: url(../../images/circle-arrow.svg) center
+//                       center no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 36px;
+//                     display: inline-block;
+//                   }
+//                   .slick-arrow.slick-prev {
+//                     z-index: 11;
+//                 }
+//                   .slick-arrow.slick-prev::before {
+//                     content: "";
+//                     background: url(../../images/Vector.svg) center center
+//                       no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 36px;
+//                     display: inline-block;
+//                   }
+//                   .itembox {
+//                     div {
+//                       // display: flex;
+//                       // justify-content: center;
+//                     }
+//                     .aws-database-details {
+//                       display: flex;
+//                       justify-content: center;
+//                       flex-direction: column;
+//                       .text-center {
+//                         display: flex;
+//                         justify-content: center;
+//                         padding-top: var(--section-spacing-md);
+//                         .aws-img {
+//                           width: 370px;
+//                           img{
+//                             transition: ease 0.3s all;
+//                             cursor: pointer;
+//                             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+//                             filter: grayscale(100%);
+//                           }
+//                           img:hover{
+//                             filter: grayscale(0);
+//                             -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+//                           }
+//                         }
+//                       }
+//                       p {
+//                         font-family: var(--font-helvicta-light);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                         padding-top: var(--section-spacing-md);
+//                         width: 80%;
+//                         margin: 0 auto;
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-06 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             h2 {
+//               // text-align: center;
+//             }
+//             .aws-case-studies {
+//               display: flex;
+//               padding-top: var(--section-spacing-sm);
+//               .aws-left-details {
+//                 width: 40%;
+//                 display: block;
+//                 ul {
+//                   list-style: none;
+//                   .case-studies-mobile-resp{
+//                     display: none;
+//                   }
+//                   li {
+//                     width: 80%;
+//                     // padding-left: 20px;
+//                     border-bottom: 1px solid var(--color-grey);
+//                     padding-bottom: 40px;
+//                     padding: var(--section-spacing-mini) 0px;
+//                     display: flex;
+//                     cursor: pointer;
+                    
+//                     span {
+//                       margin-right: 40px;
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                       // width: 20%;
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-grey);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                   li.active-tab-black {
+//                     border-bottom: 1px solid var(--color-black);
+//                     span {
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                       // width: 20%;
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               .aws-left-details-mobile {
+//                 width: 40%;
+//                 display: none;
+//                 ul {
+//                   list-style: none;
+//                   .case-studies-mobile-resp{
+//                     display: none;
+//                   }
+//                   li {
+//                     width: 80%;
+//                     // padding-left: 20px;
+//                     border-bottom: 1px solid var(--color-grey);
+//                     padding-bottom: 40px;
+//                     padding: var(--section-spacing-mini) 0px;
+//                     display: flex;
+//                     cursor: pointer;
+                    
+//                     span {
+//                       margin-right: 20px;
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                     }
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-grey);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                     p {
+//                       font-family: var(--font-helvicta);
+//                       line-height: var(--line-height-default);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-grey);
+//                       font-size: var(--text-sm);
+//                     }
+//                   }
+//                   li.active-tab-black {
+//                     border-bottom: 1px solid var(--color-black);
+//                     span {
+//                       font-family: var(--font-helvicta);
+//                       letter-spacing: var(--letter-spacing-1);
+//                       color: var(--color-black);
+//                       font-size: var(--text-sm);
+//                     }
+                    
+//                     div {
+//                       p {
+//                         font-family: var(--font-helvicta);
+//                         line-height: var(--line-height-default);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               .aws-right-details {
+//                 width: 60%;
+//                 padding-top: var(--section-spacing-mini);
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .section-07 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             h2 {
+//               // text-align: center;
+//             }
+//             .card-container {
+//               padding-top: var(--section-spacing-md);
+//               display: block;
+//             }
+//             .card-container-mobile{
+//               display: none;
+//             }
+//           }
+//         }
+//       }
+//       .section-07-devops-blog {
+//         padding-top: var(--section-spacing-lg);
+//         padding-bottom: 0px;
+        
+//         .page-wrapper {
+//           .main-container {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             h2 {
+//               // text-align: center;
+//             }
+//             .card-container {
+//               padding-top: var(--section-spacing-md);
+//               display: block;
+//             }
+//             .card-container-mobile{
+//               display: none;
+//             }
+//           }
+//         }
+//       }
+//       .devops-blog{
+//         padding-bottom: var(--section-spacing-md);
+//         img{
+//           transition: ease 0.3s all;
+//           cursor: pointer;
+//           -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+//           filter: grayscale(100%);
+//         }
+//         img:hover{
+//           filter: grayscale(0);
+//           -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+//         }
+//       }
+//       .section-08 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             padding: 0px;
+//             padding-left: var(--spacing-left);
+//             padding-right: var(--spacing-left);
+//             h3 {
+//               text-align: center;
+//               padding-bottom: var(--section-spacing-md);
+//             }
+//             div {
+//               display: flex;
+//               justify-content: center;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+  
+  
+  
+//   @media (max-width: 1720px) {
+//     .devops-page {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image{
+//                   .banner-award-image{
+//                     .award-image{
+//                       .award-icon{
+//                         width: 150px;
+//                       }
+//                       p{
+//                       }
+//                     }
+//                     .award-image:first-child{
+//                     }
+//                   }
+    
+//                 }
+//                 // img {
+//                 //   padding: 10% 20%;
+//                 // }
+//               }
+//               .banner-header {
+//                 h1 {
+//                 }
+//                 .right-arrow-btn.underline-remove-effect {
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-03 {
+//           .page-wrapper {
+//             .main-container {
+    
+//               h2 {
+//               }
+//               p {
+//               }
+//               .aws-content {
+//                 h2 {
+//                 }
+//                 .customer-data-solution-cards {
+//                   .data-solution-card {
+//                     .data-solution-card-icon {
+//                       padding: 25px 0px;
+//                       .data-icon {
+//                         width: 45px;
+//                       }
+//                       p {
+                        
+//                       }
+//                     }
+//                     .data-solution-card-details {
+//                       // width: 80%;
+//                       p {
+                        
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 130px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+    
+    
+    
+//   }
+//   @media (max-width: 1600px) {
+//     .devops-page {
+//       .page-content {
+//         .section-01 {
+//         padding: var(--section-spacing-md) 0px;
+//         .page-wrapper {
+//           .content {
+//             .aws-cons-left-details{
+//               p{
+//                 padding-right:var(--section-spacing-lg);
+//                 padding-right: 160px;
+//               }
+//             }
+//             .aws-cons-right-details {
+//               width: 50%;
+              
+//             }
+//           }
+//         }
+//       }
+//         .section-03 {
+//           .page-wrapper {
+//             .main-container {
+    
+//               h2 {
+//               }
+//               p {
+//               }
+//               .aws-content {
+//                 h2 {
+//                 }
+//                 .customer-data-solution-cards {
+//                   .data-solution-card {
+//                     .data-solution-card-icon {
+//                       padding: 25px 0px;
+//                       .data-icon {
+//                       }
+//                       p {
+                        
+//                       }
+//                     }
+//                     .data-solution-card-details {
+//                       // width: 80%;
+//                       p {
+                        
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 120px;
+//                         margin: 20px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 45%;
+//                   ul {
+//                     li {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                     li:first-child {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                   .aws-problem {
+//                     h3 {
+//                     }
+//                     p {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+    
+    
+    
+//   }
+//   @media (max-width: 1440px) {
+//     .devops-page {
+//       .page-content {
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 120px;
+//                         margin: 15px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .slick-arrow.slick-next::before {
+                      
+//                     }
+//                     .slick-arrow.slick-prev::before {
+                      
+//                     }
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+    
+//                           .aws-img {
+//                             width: 270px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+    
+    
+    
+//   }
+//   @media (max-width: 1366px) {
+//     .devops-page {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image{
+//                   .banner-award-image{
+//                     .award-image{
+//                       .award-icon{
+//                         width: 130px;
+//                       }
+//                       p{
+//                       }
+//                     }
+//                     .award-image:first-child{
+//                     }
+//                   }
+    
+//                 }
+//                 // img {
+//                 //   padding: 10% 20%;
+//                 // }
+//               }
+//               .banner-header {
+//                 h1 {
+//                 }
+//                 .right-arrow-btn.underline-remove-effect {
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 125px;
+//                         margin: 10px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .slick-arrow.slick-next::before {
+                      
+//                     }
+//                     .slick-arrow.slick-prev::before {
+                      
+//                     }
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+    
+//                           .aws-img {
+//                             width: 200px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 40%;
+//                   ul {
+//                     li {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                     li:first-child {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                   .aws-problem {
+//                     h3 {
+//                     }
+//                     p {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+//   @media (max-width: 1199px) {
+//     .devops-page {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image{
+//                   .banner-award-image{
+//                     // padding: 20px;
+//                     .award-image{
+//                       padding: 0 10px;
+//                       .award-icon{
+//                         width: 110px;
+//                       }
+//                       p{
+//                       }
+//                     }
+//                     .award-image:first-child{
+//                     }
+//                   }
+    
+//                 }
+//                 // img {
+//                 //   padding: 10% 20%;
+//                 // }
+//               }
+//               .banner-header {
+//                 h1 {
+//                 }
+//                 .right-arrow-btn.underline-remove-effect {
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-03{
+//           .page-wrapper{
+//             .main-container{
+//               h2{
+//                 width: 60%;
+//               }
+//               .aws-content .customer-data-solution-cards .data-solution-card .data-solution-card-icon{
+//                 padding: 20px 0px;
+//                 .data-icon{
+//                   width: 35px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .amazon-slider {
+//                 .sliderBox {
+//                   padding: 0;
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 70px;
+//                         margin: 20px;
+//                         margin-left: 35px;
+//                         margin-right: 35px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .slick-arrow.slick-next::before {
+                      
+//                     }
+//                     .slick-arrow.slick-prev::before {
+                      
+//                     }
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+    
+//                           .aws-img {
+//                             width: 200px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 40%;
+//                   ul {
+//                     li {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                     li:first-child {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                   .aws-problem {
+//                     h3 {
+//                     }
+//                     p {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 767px) {
+//     .devops-page {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .banner-bottom{
+//                 padding-bottom: 20px;
+//               }
+//             }
+//           }
+//         }
+//         .section-01 .page-wrapper .content .aws-cons-left-details p {
+//           padding-right: 0px;
+//           padding-top: 10px;
+//         }
+//         .section-zig-zag-header{
+//           .page-wrapper .content {
+//             padding: 0px;
+//             padding-top: var(--section-spacing-md);
+//             .piller{
+//               padding-top: var(--section-spacing-mini);
+//               .section-zig-zag{
+//                 .aws-cons-right-details{
+//                   width: 40%;
+//                 }
+//               }
+//             }
+           
+//         }
+//         }
+//         .section-05 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .content {
+//                 .aws-databases {
+//                   .sliderBox {
+//                     width: 100%;
+//                     .slick-arrow.slick-next::before {
+                      
+//                     }
+//                     .slick-arrow.slick-prev::before {
+                      
+//                     }
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+    
+//                           .aws-img {
+//                             width: 200px;
+//                           }
+//                         }
+//                         p {
+//                           width: 70%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//               }
+//               .aws-case-studies {
+//                 .aws-left-details {
+//                   width: 40%;
+//                   ul {
+//                     li {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                     li:first-child {
+//                       span {
+//                       }
+//                       div {
+//                         p {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 .aws-left-details{
+//                   display: none;
+//                 }
+//                 .aws-right-details {
+//                   width: 55%;
+//                   p {
+//                     span {
+//                     }
+//                   }
+//                   .aws-problem {
+//                     h3 {
+//                     }
+//                     p {
+//                     }
+//                   }
+//                 }
+//                 .aws-right-details{
+//                   display: none;
+//                 }
+//                 .aws-left-details-mobile{
+//                   display: block;
+//                   width: 100%;
+//                   ul{
+//                     li{
+//                       width: 100%;
+//                       div{
+//                         display: flex;
+//                         p{
+//                           padding-left: 10px;
+//                           &:last-child{
+//                             width: 85%;
+//                           }
+//                         }
+//                       }
+//                       .read-more{
+//                         text-align: end;
+//                         padding-left: 10px;
+//                         width: 22%;
+//                       }
+//                     }
+//                     .case-studies-mobile-resp{
+//                       display: block;
+//                       padding-top: 40px;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+  
+  
+//   @media(max-width: 600px){
+//     .devops-page {
+//       .page-content {
+//         .banner-wrapper {
+//           .page-wrapper {
+//             .page-banner {
+//               .image-container-header {
+//                 .banner-image{
+//                   background: none;
+//                   padding: 0px;
+//                   margin-bottom: 0px;
+//                   .banner-award-image{
+//                       padding: 30px 10px;
+//                     .award-image{
+//                       padding: 0px 10px;
+//                       .award-icon{
+//                         width:80px;
+//                         margin: 0 auto;
+//                       }
+//                       p{
+//                         line-height: 1.3;
+//                         font-size: 12px;
+//                         br{
+//                           display: none;
+//                         }
+//                       }
+//                     }
+//                     .award-image:first-child{
+//                       padding-right: 20px;
+//                       padding-left: 0px;
+//                       padding-bottom: 0px;
+//                     }
+//                   }
+    
+//                 }
+//                 // img {
+//                 //   padding: 10% 20%;
+//                 // }
+//               }
+//               .banner-bottom{
+//                 flex-direction: column;
+//                 .banner-header {
+//                   width: 100%;
+//                   // padding: var(--section-spacing-xm) 0px;
+//                   padding-bottom: 0px;
+//                   padding-left: var(--spacing-left);
+//                   h1 {
+//                     padding: var();
+//                     min-height: 92px;
+                    
+//                     br{
+//                       display: none;
+//                     }
+//                   }
+//                   .right-arrow-btn.underline-remove-effect {
+//                     width: 90%;
+//                     margin-top: var(--section-spacing-md);
+//                   }
+//                 }
+//                 .banner-bottom-img{
+//                   width: 100%;
+//                   padding-top: var(--section-spacing-xmini);
+//                 }
+//               }
+              
+//               .banner-image-section{
+//                 padding: var(--section-spacing-xm) 0px;
+//                 padding-top: 0px;
+                
+//               }
+//             }
+//           }
+//         }
+//         .section-01 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .content {
+//               display: flex;
+//               flex-direction: column-reverse;
+//               .aws-cons-left-details {
+//                 width: 100%;
+//                 padding-right: 0px;
+//                 padding-top: 0px;
+//                 p {
+//                   line-height: var(--line-height-default-1);
+//                   padding-top: var(--section-spacing-lg);
+//                   padding-left:  var(--section-spacing-md);
+//                   padding-right: 0px;
+//                 }
+//                 h2{
+//                   font-size: var(--heading-lg) !important;
+//                   min-height: 124px;
+//                   br{
+//                     display: none;
+//                   }
+//                 }
+//               }
+//               .aws-cons-right-details {
+//                 width: 100%;
+//               }
+//             }
+//           }
+//         }
+//         .devops-port{
+//             h2{
+//                 min-height: 83px !important;
+//             }
+//         }
+        
+//         .section-zig-zag-header{
+//             padding-left: 0px;
+//             padding-top: var(--section-spacing-lg);
+//             padding-bottom: var(--section-spacing-lg);
+//             .page-wrapper{
+//               .content{
+//                 padding: 0px;
+//                 .header-h1-one-line{
+//                   .heading-lg{
+//                     min-height: 83px;
+//                   }
+//                 }
+//                 .piller{
+//                   padding-left: var(--section-spacing-md);
+//                   .section-zig-zag{
+//                     flex-direction: column;
+//                     .aws-cons-left-details{
+//                       width: 100%;
+//                       padding-right: 0px;
+//                       ul{
+//                         padding-top: var(--section-spacing-mini);
+//                       }
+//                     }
+//                     .aws-cons-right-details{
+//                       width: 100%;
+//                       padding-top: var(--section-spacing-mini);
+//                     }
+//                     &:last-child{
+//                       padding-bottom: 0px;
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//         }
+//         .section-zig-zag .page-wrapper .content{
+//             flex-direction: column-reverse;
+//             .aws-cons-left-details{
+//                 width: 100%;
+//                 padding-right: 0px;
+//                 padding-bottom: var(--section-spacing-md);
+//             }
+//             .aws-cons-right-details{
+//                 width: 100%;
+//                 padding-right: 0px;
+//                 padding-bottom: var(--section-spacing-md);
+//             }
+//         }
+//         .section-zig-zag-1 .page-wrapper .content{
+//             flex-direction: column;
+//             .aws-cons-left-details{
+//                 width: 100%;
+//                 padding-right: 0px;
+//                 padding-bottom: var(--section-spacing-md);
+                
+//             }
+//             .aws-cons-right-details{
+//                 width: 100%;
+//                 padding-right: 0px;
+//                 padding-bottom: var(--section-spacing-md);
+
+//             }
+//         }
+//         .devops-page .page-content .section-zig-zag .page-wrapper .content .aws-cons-left-details{
+//             width: 100%;
+//         }
+//         .devops-page .page-content .section-zig-zag .page-wrapper .content .aws-cons-right-details{
+//             width: 100%;
+//         }
+//         .section-02 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .content {
+//               flex-direction: column;
+//               .header-h1-two-line{
+//                 width: 100%;
+//                 br{
+//                   display: none;
+//                 }
+//               }
+//               h2{
+//                 padding-left: var(--section-spacing-md);
+//                 padding-right: 30px;
+//                 padding-bottom:  var(--section-spacing-lg);
+//                 margin: 0 auto;
+//                 font-size: var(--heading-lg) !important;
+//                 min-height: 125px;
+//               }
+//               .aws-partner-list {
+//                 flex-wrap: wrap;
+//                 padding-left:  var(--section-spacing-md);
+//                 width: 100%;
+//                 .aws-icons {
+//                   width: 120px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-03 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .main-container {
+//               padding: 0px;
+//               padding-left: var(--spacing-left);
+//               padding-left:  var(--section-spacing-md);
+//               h2 {
+//                 width: 80%;
+//                 min-height: 125px;
+//               }
+//               p {
+//                 line-height: var(--line-height-default-1);
+//                 padding-top: var(--section-spacing-lg);
+//               }
+//               .aws-content {
+//                 padding-top: var(--section-spacing-lg);
+                
+//                 h2 {
+//                   width: 100%;
+//                   font-size:var(--heading-lg) !important;
+//                   min-height: 125px;
+//                 }
+//                 .customer-data-solution-cards {
+//                   // padding-top: var(--section-spacing-sm);
+//                   .data-solution-card {
+//                     display: flex;
+//                     width: 100%;
+//                     flex-direction: column;
+//                     padding-top: var(--section-spacing-lg);
+//                     padding-bottom: var(--section-spacing-xm);
+//                     .data-solution-card-icon {
+//                       margin-top: var(--spacing-left);
+//                       padding: 20px 0px;
+//                       .data-icon {
+//                         width: 40px;
+//                       }
+//                       p {
+//                         line-height: var(--line-height-default-1);
+//                       }
+//                     }
+//                     .data-solution-card-details {
+//                       // width: 80%;
+//                       p {
+//                         line-height: var(--line-height-default-1);
+//                         padding-top: var(--section-spacing-xm);
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-04 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .main-container {
+//               h2 {
+//                 text-align: start;
+//                 // padding-left: var(--section-spacing-md);
+                
+//               }
+//               .header-h1-two-line{
+//                 padding-bottom: 0px;
+//                 h2{
+//                   min-height: 165px;
+//                 }
+//               }
+//               .amazon-slider {
+//                 padding-top: var(--section-spacing-md);
+//                 padding-bottom: var(--section-spacing-xm);
+//                 padding-right: 25px;
+//                 padding-left: 25px;
+//                 .slick-list{
+//                   width: 90%;
+//                   .slick-slide{
+//                     img{
+//                       border-radius: 5px;
+//                     }
+//                   }
+//                 }
+//                 .sliderBox {
+//                   padding: 0px;
+//                   .slick-slider{
+//                     display: flex;
+//                     justify-content: center;
+//                   }
+//                   .slick-arrow.slick-next::before {
+//                     content: "";
+//                     background: url(../../images/circle-arrow.svg) center
+//                       center no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 20px;
+//                     display: inline-block;
+//                   }
+//                   .slick-arrow.slick-prev {
+//                     z-index: 11;
+//                 }
+//                   .slick-arrow.slick-prev::before {
+//                     content: "";
+//                     background: url(../../images/circle-arrow.svg) center center no-repeat;
+//                     width: 36px;
+//                     height: 14px;
+//                     background-size: 20px;
+//                     rotate: -180deg;
+//                     display: inline-block;
+//                   }
+//                   .itembox {
+//                     .all-cards {
+//                       .aws-card-logo {
+//                         max-width: 60px;
+//                         margin: 10px;
+//                         // margin-left: 50px;
+//                       }
+//                       div {
+//                         .aws-card-logo {
+//                           margin-top: 20px;
+//                           margin-bottom: 10px;
+//                           margin-right: 20px;
+//                           max-width: 16%;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-05 {
+//           padding-bottom: var(--section-spacing-lg);
+//           padding-top: 0px;
+//           .page-wrapper {
+//             .main-container {
+//               padding: 0px;
+//               h2 {
+//                 font-size: var(--text-sm) !important;
+//               }
+//               .content {
+//                 .aws-databases {
+//                   padding-top: var(--section-spacing-lg);
+//                   padding-bottom: var(--section-spacing-xm);
+//                   padding-right: 25px;
+//                   padding-left: 25px;
+//                   .sliderBox {
+//                     padding: 0px;
+//                     width: 100%;
+//                     .slick-arrow.slick-next::before {
+//                       width: 26px;
+//                       background-size: 20px;
+//                     }
+//                     .slick-arrow.slick-prev {
+//                   }
+//                     .slick-arrow.slick-prev::before {
+//                       width: 26px;
+//                       background-size: 20px;
+//                     }
+//                     .itembox {
+//                       div {
+//                       }
+//                       .aws-database-details {
+//                         .text-center {
+//                           .aws-img {
+//                             width: 170px;
+//                             img{
+//                               transition: ease 0.3s all;
+//                               cursor: pointer;
+//                               -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+//                               filter: grayscale(0);
+//                             }
+//                           }
+//                         }
+//                         p {
+//                           line-height: var(--line-height-default-1);
+//                           color: var(--color-grey);
+//                           width: 80%;
+//                           text-align: center;
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-06 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .main-container {
+//               padding: 0px;
+             
+//               h2 {
+//                 text-align: start;
+//               }
+//               .aws-case-studies {
+//                 padding-left: 40px;
+//                 flex-direction: column;
+//                 padding-top: var(--section-spacing-sm);
+//                 .aws-left-details{
+//                   display: none;
+//                 }
+//                 .aws-left-details-mobile {
+//                   display: block;
+//                   width: 100%;
+//                   ul {
+//                     list-style: none;
+//                     padding-right: 10px;
+//                     .case-studies-mobile-resp{
+//                       display: block;
+//                     }
+//                     li {
+//                       width: 100%;
+//                       // padding-left: 20px;
+//                       border-bottom: 1px solid var(--color-grey);
+//                       padding-bottom: 40px;
+//                       padding: var(--section-spacing-mini) 0px;
+//                       display: flex;
+//                       flex-direction: column;
+//                       cursor: pointer;
+                      
+//                       span {
+//                         margin-right: 20px;
+//                         font-family: var(--font-helvicta);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-grey);
+//                         font-size: var(--text-sm);
+//                       }
+//                       div {
+//                         display: flex;
+//                         p {
+//                           line-height: var(--line-height-default-1);
+//                           letter-spacing: var(--letter-spacing-1);
+//                           padding-left: 0px;
+//                         }
+//                         p:last-child{
+//                           margin-left: 20px;
+//                         }
+//                       }
+//                       .read-more{
+//                         margin-left: 30px;
+//                         margin-top: 20px;
+//                         background: url('../../images/left-arrow-grey.svg') left top -1px  no-repeat;
+//                         background-size: 15px;
+//                         padding-left: 20px;
+//                         width: 50%;
+//                         text-align: center;
+//                       }
+//                     }
+//                     li.active-tab-black {
+//                       border-bottom: none;
+//                       padding-bottom: 60px;
+//                       span {
+//                         font-family: var(--font-helvicta);
+//                         letter-spacing: var(--letter-spacing-1);
+//                         color: var(--color-black);
+//                         font-size: var(--text-sm);
+//                       }
+//                       div {
+//                         p {
+//                           font-family: var(--font-helvicta);
+//                           line-height: var(--line-height-default-1);
+//                           color: var(--color-black);
+//                           font-size: var(--text-sm);
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 .aws-right-details {
+//                   display: none;
+//                   width: 100%;
+//                   padding-top: var(--section-spacing-mini);
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         .section-07 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .main-container {
+//               padding: 0px;
+//               h2 {
+//                 text-align: start;
+//                 br{
+//                   display: none;
+//                 }
+//               }
+//               .card-container {
+//                 padding-top: var(--section-spacing-md);
+//                 display: none;
+//               }
+//               .card-container-mobile {
+//                 display: block;
+//                 padding: var(--section-spacing-sm) 0px;
+//                 padding-bottom: 0px;
+//                 padding-left:40px;
+//                 .client-card{
+//                   .client-review{
+//                     .text{
+//                       padding-left: 0px;
+//                       padding-top: 60px;
+//                     }
+//                   }
+//                 }
+  
+//                 .testimonialDesktop {
+//                   display: flex;
+//                   overflow-x: scroll;
+//                     -ms-overflow-style: none;  /* IE and Edge */
+//                     scrollbar-width: none;  /* Firefox */
+//                 }
+//                 .testimonialDesktop::-webkit-scrollbar {
+//                   display: none;
+//                 }
+//               }
+  
+//             }
+//           }
+//         }
+//         .section-07-devops-blog {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .main-container {
+//               padding: 0px;
+//               h2 {
+//                 text-align: start;
+//               }
+//               .card-container {
+//                 padding-top: var(--section-spacing-md);
+//                 display: none;
+//               }
+//               .card-container-mobile {
+//                 display: block;
+//                 padding: var(--section-spacing-sm) 0px;
+//                 padding-bottom: 0px;
+//                 .client-card{
+//                   .client-review{
+//                     .text{
+//                       padding-left: 0px;
+//                       padding-top: 60px;
+//                     }
+//                   }
+//                 }
+  
+//                 .testimonialDesktop {
+//                   display: flex;
+//                   overflow-x: scroll;
+//                     -ms-overflow-style: none;  /* IE and Edge */
+//                     scrollbar-width: none;  /* Firefox */
+//                 }
+//                 .testimonialDesktop::-webkit-scrollbar {
+//                   display: none;
+//                 }
+//               }
+  
+//             }
+//           }
+//         }
+//         .devops-blog{
+//           .page-wrapper{
+//             .blog-inner-mobile{
+//               flex-direction: row;
+//               overflow-x: auto;
+//               scroll-behavior: smooth;
+//               .blogs{
+//                 padding: 0px ;
+//                 padding-bottom: 10px ;
+//               }
+//             }
+//           }
+//         }
+//         .section-08 {
+//           padding: var(--section-spacing-lg) 0px;
+//           .page-wrapper {
+//             .content {
+//               padding: 0px;
+//               // padding-left: var(--spacing-left);
+//               padding-left: var(--section-spacing-md);
+//               h3 {
+//                 text-align: start;
+//                 padding-bottom: var(--section-spacing-md);
+//                 br{
+//                   display: none;
+//                 }
+//               }
+//               div {
+//                 display: flex;
+//                 justify-content: center;
+//                 padding-right: 40px;
+//                 a{
+//                   width: 100%;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+    
+//   }

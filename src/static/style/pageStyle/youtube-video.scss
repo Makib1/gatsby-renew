@@ -1,0 +1,135 @@
+// .youtube-video {
+//     .page-content {
+//         .main-container {
+//             .navigation{
+//                 padding-bottom: var(--section-spacing-xmini);
+//                 a{
+//                     font-weight: 600;
+//                 }
+//             }
+//             .whole-content{
+//                 display: flex;
+//                 // align-items: center;
+//                 padding-bottom: var(--section-spacing-lg);
+//                 justify-content: center;
+//                 gap: var(--section-spacing-xmini);
+
+//                 .left-video {
+//                     width: 70%;
+
+//                     .iframe-container {
+//                         position: relative;
+//                         width: 100%;
+//                         /* Full width */
+//                         padding-bottom: 56.25%;
+//                         /* Aspect ratio 16:9 (9/16 = 0.5625) */
+//                         height: 0;
+//                         overflow: hidden;
+//                     }
+
+//                     .iframe-container iframe {
+//                         position: absolute;
+//                         top: 0;
+//                         left: 0;
+//                         width: 100%;
+//                         height: 100%;
+//                     }
+
+//                     h3 {
+//                         padding-top: var(--section-spacing-mini);
+//                         font-size: var(--text-tmd);
+//                         font-weight: 700 !important;
+//                         line-height: 1.2em !important;
+//                         letter-spacing: var(--letter-spacing-default);
+//                     }
+
+//                     p {
+//                         padding-top: 8px;
+//                         font-size: var(--text-sm);
+//                         line-height: 1.2em !important;
+//                         letter-spacing: var(--letter-spacing-default);
+//                     }
+
+//                     .btn-area{
+//                         padding-top: var(--section-spacing-md);
+//                     }
+//                 }
+
+//                 .right-list {
+//                     width: 30%;
+//                     position: relative;
+//                     p.title{
+//                         padding-top: 8px;
+//                         font-size: var(--text-sm);
+//                         font-weight: 600;
+//                     }
+//                     p.description{
+//                         font-size: var(--text-sm);
+//                         padding-top: 8px;
+//                         padding-bottom: 20px;
+//                     }
+
+//                     .iframe-container {
+//                         position: relative;
+//                         width: 100%;
+//                         /* Full width */
+//                         padding-bottom: 56.25%;
+//                         /* Aspect ratio 16:9 (9/16 = 0.5625) */
+//                         height: 0;
+//                         overflow: hidden;
+//                         display: flex;
+
+//                     }
+
+
+//                     .iframe-container iframe {
+//                         position: absolute;
+//                         top: 0;
+//                         left: 0;
+//                         width: 100%;
+//                         height: 100%;
+//                     }
+
+//                     iframe {
+//                         padding-bottom: 20px;
+//                         width: 100%;
+//                         height: 100%;
+//                     }
+//                     .video-cover{
+//                         cursor: pointer;
+//                         position: absolute;
+//                         width: 100%;
+//                         height: 100%;
+//                         top: 0;
+//                         left: 0;
+//                       //   background-color: black;
+//                       }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media(max-width:767px){
+//     .youtube-video .page-content .main-container .whole-content {
+//         flex-direction: column;
+//         .left-video{
+//             width: 100%;
+//         }
+//         .right-list{
+//             width: 100%;
+//         }
+//     }
+// }
+
+// @media(max-width:767px){
+//     .youtube-video .page-content .main-container .whole-content {
+//         flex-direction: column;
+//         .left-video{
+//             width: 100%;
+//         }
+//         .right-list{
+//             width: 100%;
+//         }
+//     }
+// }

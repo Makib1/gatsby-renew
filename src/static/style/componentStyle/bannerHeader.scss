@@ -1,0 +1,558 @@
+// h3{
+//   span{
+//     font-family: var(--font-helvicta-light);
+//     line-height: var(--line-height-default);
+//     letter-spacing: var(--letter-spacing-1);
+//     color: var(--color-grey);
+//     padding-bottom: 20px;
+//   }
+// }
+// h1,h2,h3{
+//   &:focus {
+//     outline: none;
+// }
+// }
+
+// .header-h1-one-line {
+//   .heading-lg{
+//     min-height: 136px;
+//   }
+//   h3.heading-md{
+//     min-height: 70px;
+//     .Typewriter {
+//       .Typewriter__wrapper {
+//         font-family: var(--font-helvicta) !important;
+//         line-height: var(--line-height-default) !important;
+//         letter-spacing: var(--letter-spacing) !important;
+//         color: var(--color-black) !important;
+//         position: relative !important;
+//         font-size: var(--heading-md) !important;
+//       }}
+//     span {
+//       // border-bottom: 1px solid  var(--color-grey);
+//     }
+//   }
+
+//   h3.padding-top-60px {
+//     padding: var(--section-spacing-xm) 0px;
+//   }
+// }
+
+// .header-h1-two-line {
+//   .heading-lg{
+//     min-height: 254px;
+//   }
+//   .heading-md{
+//     min-height: 138px;
+//   }
+
+//   h3 {
+//     span {
+//       border-bottom: 1px solid  var(--color-grey);
+//     }
+//   }
+
+//   h3.padding-top-60px {
+//     padding: var(--section-spacing-xm) 0px;
+//   }
+// }
+
+// .header-h1-three-line {
+//   .heading-lg{
+//     min-height: 380px;
+//   }
+//   .heading-md{
+//     min-height: 195px;
+//   }
+//   h3 {
+//     span {
+//       border-bottom: 1px solid  var(--color-grey);
+//     }
+//   }
+
+//   h3.padding-top-60px {
+//     padding: var(--section-spacing-xm) 0px;
+//   }
+// }
+
+// .header-h1-one-line {
+//   .heading-lg{
+//   }
+//   h3 {
+   
+//   }
+//   h3.padding-top-60px {
+//     padding: var(--section-spacing-xm) 0px;
+//     span {
+//       border-bottom: 1px solid  var(--color-grey);
+//     }
+//   }
+// }
+
+
+// @media (max-width: 1720px) {
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 118px;
+//     }
+//     h3.heading-md{
+//       min-height: 60px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 235px;
+//     }
+//     .heading-md{
+//       min-height: 120px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 352px;
+//     }
+//     .heading-md{
+//       min-height: 165px;
+//     }
+//   }
+// }
+
+// @media (max-width: 1600px) {
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 101px;
+//     }
+//     h3.heading-md{
+//       min-height:52px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 202px;
+//     }
+//     .heading-md{
+//       min-height: 104px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 304px;
+//     }
+//     .heading-md{
+//       min-height: 145px;
+//     }
+//   }
+// }
+
+// @media (max-width: 1440px) {
+//   h3{
+//     span{
+//       padding-bottom: 10px;
+//     }
+//   }
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 90px;
+//     }
+//     h3.heading-md{
+//       min-height:46px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 179px;
+//     }
+//     .heading-md{
+//       min-height: 93px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 268px;
+//     }
+//     .heading-md{
+//       min-height: 130px;
+//     }
+//   }
+// }
+// @media (max-width: 1366px) {
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 77px;
+//     }
+//     h3.heading-md{
+//       min-height:39px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 157px;
+//     }
+//     .heading-md{
+//       min-height: 80px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 230px;
+//     }
+//     .heading-md{
+//       min-height: 110px;
+//     }
+//   }
+// }
+// @media (max-width: 1199px) {
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 67px;
+//     }
+//     h3.heading-md{
+//       min-height:34px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 133px;
+//     }
+//     .heading-md{
+//       min-height: 70px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 200px;
+//     }
+//     .heading-md{
+//       min-height: 98px;
+//     }
+//   }
+// }
+
+// @media (max-width: 1023px) {
+//   .header-h1-one-line {
+//     .heading-lg{
+//       min-height: 67px;
+//     }
+//     h3.heading-md{
+//       min-height:34px;
+//     }
+//   }
+  
+//   .header-h1-two-line {
+//     .heading-lg{
+//       min-height: 123px;
+//     }
+//     .heading-md{
+//       min-height: 70px;
+//     }
+//   }
+  
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 185px;
+//     }
+//   }
+// }
+
+
+// @media (max-width: 767px) {
+//   .banner-header-mobile {
+//       .header-h1-two-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid #000;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+    
+//       }
+//       .header-h1-three-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid var(--color-grey);
+//           padding-bottom: 5px;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+//       }
+
+//       .header-h1-two-line h3.padding-top-60px {
+//         padding-bottom: 0px;
+//       }
+//       .header-h1-one-line {
+//         .heading-lg{
+//           min-height: 45px;
+//         }
+        
+//       }
+      
+//       .header-h1-two-line {
+//         .heading-lg{
+//           min-height: 90px;
+//         }
+//       }
+      
+//       .header-h1-three-line {
+//         .heading-lg{
+//           min-height: 135px;
+//         }
+//       }
+//     }
+//     .header-h1-one-line {
+//       .heading-lg{
+//         min-height: 62px;
+//       }
+//       h3.heading-md{
+//         min-height:27px;
+//       }
+//     }
+    
+//     .header-h1-two-line {
+//       .heading-lg{
+//         min-height: 123px;
+//       }
+//       .heading-md{
+//         min-height: 55px;
+//       }
+//     }
+    
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 185px;
+//       }
+//     }
+//   .mobile-content{
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 135px;
+//       }
+//     }
+//   }
+
+//   .homev2 .page-content .section-04 .page-wrapper .main-container .header-h1-two-line .heading-lg{
+//     min-height: 135px;
+//   }
+//   .homev2 .page-content .section-03 .page-wrapper .main-container .top-content .header-h1-three-line .heading-lg{
+//     min-height: 123px;
+//   }
+
+// }
+
+
+
+// @media (max-width: 600px) {
+//   .banner-header-mobile {
+//       .header-h1-two-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid #000;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+    
+//       }
+//       .header-h1-three-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid var(--color-grey);
+//           padding-bottom: 5px;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+//       }
+
+//       .header-h1-two-line h3.padding-top-60px {
+//         padding-bottom: 0px;
+//       }
+//       .header-h1-one-line {
+//         .heading-lg{
+//           min-height: 45px;
+//         }
+        
+//       }
+      
+//       .header-h1-two-line {
+//         .heading-lg{
+//           min-height: 90px;
+//         }
+//       }
+      
+//       .header-h1-three-line {
+//         .heading-lg{
+//           min-height: 135px;
+//         }
+//       }
+//     }
+//     .header-h1-one-line {
+//       .heading-lg{
+//         min-height: 45px;
+//       }
+//       h3.heading-md{
+//         min-height:27px;
+//       }
+
+//     }
+    
+    
+//     .header-h1-two-line {
+//       .heading-lg{
+//         min-height: 90px;
+//       }
+//       .heading-md{
+//         min-height: 55px;
+//       }
+//     }
+    
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 135px;
+//       }
+//     }
+//   .mobile-content{
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 135px;
+//       }
+//     }
+//   }
+
+//   .homev2 .page-content .section-04 .page-wrapper .main-container .header-h1-two-line .heading-lg{
+//     min-height: 135px;
+//   }
+//   .homev2 .page-content .section-03 .page-wrapper .main-container .top-content .header-h1-three-line .heading-lg{
+//     min-height: 90px;
+//   }
+
+// }
+// @media (max-width: 400px) {
+//   .banner-header-mobile {
+//       .header-h1-two-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid #000;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+    
+//       }
+//       .header-h1-three-line {
+//         h3 {
+//           margin-right: 0;
+//           padding-bottom: 0px;
+//           display: inline-block;
+//           width: auto;
+//           border-bottom: 1px solid var(--color-grey);
+//           padding-bottom: 5px;
+
+//           span {
+//             border-bottom: none;
+//           }
+//         }
+//       }
+
+//       .header-h1-two-line h3.padding-top-60px {
+//         padding-bottom: 0px;
+//       }
+//       .header-h1-one-line {
+//         .heading-lg{
+//           min-height: 45px;
+//         }
+        
+//       }
+      
+//       .header-h1-two-line {
+//         .heading-lg{
+//           min-height: 90px;
+//         }
+//       }
+      
+//       .header-h1-three-line {
+//         .heading-lg{
+//           min-height: 124px;
+//         }
+//       }
+//     }
+//     .header-h1-one-line {
+//       .heading-lg{
+//         min-height: 41px;
+//       }
+//       h3.heading-md{
+//         min-height:25px;
+//       }
+
+//     }
+    
+    
+//     .header-h1-two-line {
+//       .heading-lg{
+//         min-height: 83px;
+//       }
+//       .heading-md{
+//         min-height: 55px;
+//       }
+//     }
+    
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 125px;
+//       }
+//     }
+//   .mobile-content{
+//     .header-h1-three-line {
+//       .heading-lg{
+//         min-height: 135px;
+//       }
+//     }
+//   }
+
+//   .homev2 .page-content .section-04 .page-wrapper .main-container .header-h1-two-line .heading-lg{
+//     min-height: 135px;
+//   }
+//   .homev2 .page-content .section-03 .page-wrapper .main-container .top-content .header-h1-three-line .heading-lg{
+//     min-height: 90px;
+//   }
+//   .header-h1-three-line {
+//     .heading-lg{
+//       min-height: 124px;
+//     }
+//     .heading-md{
+//       min-height: 76px;
+//     }
+//   }
+
+// }
