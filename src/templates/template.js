@@ -177,7 +177,7 @@ const BlogTemplate = ({ pageContext }) => {
         <meta name="description" content={"description"} />
         <meta property="og:title" content={content.header} />
         <meta property="og:description" content={content.slug} />
-        <meta property="og:image" content={`https://devwebbk.lumiq.ai${content.imageUrl}`} />
+        <meta property="og:image" content={`${process.env.STRAPI_URL + content.imageUrl}`} />
       </Helmet>
       <div className="dynamic-blog">
         <div className="page-content">
