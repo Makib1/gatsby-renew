@@ -52,7 +52,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "npm run clean && gatsby build",
+    "build": "gatsby build",
     "develop": "NODE_ENV=development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "NODE_ENV=development npm run develop",

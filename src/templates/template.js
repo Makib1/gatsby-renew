@@ -15,6 +15,7 @@ import TagIcon from "../static/images/blog-page/tag-icon.png"
 import Underline from "../components/underline"
 import BlackBtn from "../components/black-btn"
 import "../static/style/pageStyle/dynamicBlogs.scss"
+import SEO from "../components/Seo";
 
 
 
@@ -172,13 +173,15 @@ const BlogTemplate = ({ pageContext }) => {
   };
   return (
     <>
-    <Helmet>
-        <title>{"LUMIQ | Blogs"}</title>
-        <meta name="description" content={"description"} />
-        <meta property="og:title" content={content.header} />
-        <meta property="og:description" content={content.slug} />
-        <meta property="og:image" content={`${process.env.STRAPI_URL + content.imageUrl}`} />
-      </Helmet>
+    <SEO 
+       metaTitle={content?.metaTitle}
+       metaDescription={content?.metaDescription}
+       ogTitle={content?.header}
+       ogDescription={content?.metaDescription}
+       ogImage={`${process.env.STRAPI_URL + content?.imageUrl}`}
+       ogAuthor={content?.author}
+       ogTags={content?.tags}
+    />
       <div className="dynamic-blog">
         <div className="page-content">
           <div className="page-wrapper">
