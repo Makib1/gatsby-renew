@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import React from 'react';
 
-function SEO({ description, lang, meta, title}) {
+function PageSeo({ description, lang, meta, title}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -57,6 +57,14 @@ function SEO({ description, lang, meta, title}) {
           content: image,
         },
         {
+          property: `og:image:width`,
+          content: "1200",
+        },
+        {
+          property: `og:image:height`,
+          content: "630",
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -81,7 +89,7 @@ function SEO({ description, lang, meta, title}) {
   )
 }
 
-SEO.defaultProps = {
+PageSeo.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
@@ -95,4 +103,4 @@ SEO.defaultProps = {
 //   title: PropTypes.string.isRequired,
 // }
 
-export default SEO
+export default PageSeo

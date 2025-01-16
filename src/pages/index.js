@@ -13,7 +13,7 @@ import { Link } from "gatsby"
 import Loadable from "@loadable/component"
 import downloadIcon from "../static/images/component-img/download_black.svg"
 import { StaticImage } from "gatsby-plugin-image"
-import SEO from "../components/seo"
+import PageSeo from "../components/PageSeo"
 
 const LoadableCards = Loadable(() => import("../components/cards"))
 const LoadableCardsMobile = Loadable(() => import("../components/cards-mobile"))
@@ -158,7 +158,7 @@ const NewHome = props => {
 
   return (
     <div className={`homev2 ${isNavBarOpen ? "" : "no-scroll"}`}>
-      <SEO title="Succeed in Data Transformation" />
+      <PageSeo title="Succeed in Data Transformation" />
       <div className="page-content">
         {/* -------- Banner start -------- */}
         

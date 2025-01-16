@@ -10,7 +10,9 @@ function SEO(
     ogDescription = "LUMIQ blog Og:description",
     ogImage = "https://lumiq.ai/static/lumiq-f31913638eef8c454d268b6f70719ae8.webp", // Replace with your actual default image URL
     ogAuthor = "LUMIQ teams",
-    ogTags = ["lumiq"]
+    ogTags = ["lumiq"],
+    ogImageWidth = "1200", // Default width
+    ogImageHeight = "630",
     }={}
 ) {
 //   const { site } = useStaticQuery(
@@ -64,6 +66,14 @@ function SEO(
         {
           property: `og:image`,
           content: ogImage,
+        },
+        {
+          property: `og:image:width`,
+          content: ogImageWidth,
+        },
+        {
+          property: `og:image:height`,
+          content: ogImageHeight,
         },
         {
           name: `twitter:card`,
