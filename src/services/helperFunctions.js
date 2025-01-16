@@ -952,8 +952,8 @@ export const FetchedGcpPartnerPageData = data => {
 export const empPryzmData=data=>{
    const banner={};
   //  data?.empPage?.empPage?.journey[1]?.attributes?.dynamicCmp
-   const temp=data?.pryzm?.pryzm?.journey[0]?.attributes;
-   const dynamicTemp=data?.pryzm?.pryzm?.journey[0]?.attributes?.dynamicCmp[0];
+   const temp=data?.allPryzm?.nodes[0]?.journey[0]?.attributes;
+   const dynamicTemp=data?.allPryzm?.nodes[0]?.journey[0]?.attributes?.dynamicCmp[0];
 
 
    banner.heading=temp?.heading;
@@ -964,10 +964,10 @@ export const empPryzmData=data=>{
    banner.paragraph=dynamicTemp?.heading;
    banner.subparagraph=dynamicTemp?.paragraph;
 
-   const section2=data?.pryzm?.pryzm?.journey[1]?.attributes;
-   const section3=data?.pryzm?.pryzm?.journey[2]?.attributes;
-   const section4=data?.pryzm?.pryzm?.journey[3]?.attributes;
-   const section5=data?.pryzm?.pryzm?.journey[4]?.attributes;
+   const section2=data?.allPryzm?.nodes[0]?.journey[1]?.attributes;
+   const section3=data?.allPryzm?.nodes[0]?.journey[2]?.attributes;
+   const section4=data?.allPryzm?.nodes[0]?.journey[3]?.attributes;
+   const section5=data?.allPryzm?.nodes[0]?.journey[4]?.attributes;
   return {banner,section2,section3,section4,section5};
 }
 
