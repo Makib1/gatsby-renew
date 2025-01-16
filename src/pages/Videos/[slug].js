@@ -15,30 +15,22 @@ const Post = props => {
     const currentPath = window.location.pathname;
     const lastPart = currentPath.substring(currentPath.lastIndexOf('/') + 1);
     const filteredVideo = videoData.find(vid => vid.slug === lastPart);
+    console.log(filteredVideo, "hello");
     setRunningVideo(filteredVideo);
 
     const updatedVideoData = videoData.filter(video => video.slug !== lastPart);
     setListVideo(updatedVideoData.slice(0, 3));
-  }, []);
+}, [videoData]); // Include videoData as a dependency
+
 
   const handleVideoClick = (slug, heading) => {
 
-    // Ensure `YouTubeVideo().video` is correctly retrieved and working
     let videoData = YouTubeVideo().video;
 
-    // Find the selected video by its slug
     const selectedVideo = videoData.find(video => video.slug === slug);
-
-    // Filter out the selected video if necessary (depending on your logic)
     const updatedVideoData = videoData.filter(video => video.slug !== slug);
-
-    // Update the list of videos (if necessary)
     setListVideo(updatedVideoData);
-
-    // Set the running video to the selected one
     setRunningVideo(selectedVideo);
-
-    // Update URL without reloading the page
     window.history.pushState({}, "", `/Videos/${slug}`);
 
     // Scroll to top with smooth behavior
@@ -52,9 +44,21 @@ const Post = props => {
 
   useEffect(() => {
     let videoData = YouTubeVideo().video;
-    const updatedVideoData = videoData.filter(video => video.slug != runningVideo.slug && video.category === runningVideo.category);
-    setListVideo(updatedVideoData.slice(0, 3))
+    console.log("Video Data:", videoData); // Debug videoData
+    
+    if (!videoData || !runningVideo) {
+      console.log("Missing data: ", { videoData, runningVideo });
+      return;
+    }
+  
+    const updatedVideoData = videoData.filter(
+      (video) => video.slug !== runningVideo.slug && video.category === runningVideo.category
+    );
+  
+    console.log("Updated Video Data:", updatedVideoData); // Debug updated data
+    setListVideo(updatedVideoData.slice(0, 3));
   }, [runningVideo]);
+  
 
   return (
     <>
@@ -77,15 +81,15 @@ const Post = props => {
               <div className="left-video">
                 <div className="iframe-container">
                   <iframe
-                    src={`${runningVideo.src}${runningVideo.src.includes('?') ? '&' : '?'}autoplay=1&mute=0&rel=0`}
-                    title={runningVideo.title}
-                    frameborder={runningVideo.frameborder}
-                    allow={runningVideo.allow}
-                    allowfullscreen={runningVideo.allowfullscreen}
+                    src={`${runningVideo?.src}${runningVideo?.src?.includes('?') ? '&' : '?'}autoplay=1&mute=0&rel=0`}
+                    title={runningVideo?.title}
+                    frameborder={runningVideo?.frameborder}
+                    allow={runningVideo?.allow}
+                    allowfullscreen={runningVideo?.allowfullscreen}
                   ></iframe>
                 </div>
                 <h3 className="heading">{runningVideo?.heading}</h3>
-                <p className="content">{runningVideo.fullDescription}</p>
+                <p className="content">{runningVideo?.fullDescription}</p>
                 <div className="btn-area">
                   <a href="/resources">
                     <BlackBtnrTl

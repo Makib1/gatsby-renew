@@ -972,13 +972,13 @@ export const empPryzmData=data=>{
 }
 
 export const genaiData=data=>{
-  const banner=data?.genai?.genai?.journey[0]?.attributes;
-  const section2=data?.genai?.genai?.journey[1]?.attributes;
-  const section3=data?.genai?.genai?.journey[2]?.attributes;
-  const section4=data?.genai?.genai?.journey[3]?.attributes;
-  const section5=data?.genai?.genai?.journey[4]?.attributes;
-  const section6=data?.genai?.genai?.journey[5]?.attributes;
-  const section7=data?.genai?.genai?.journey[6]?.attributes;
+  const banner=data?.allGenai?.nodes[0]?.journey[0]?.attributes;
+  const section2=data?.allGenai?.nodes[0]?.journey[1]?.attributes;
+  const section3=data?.allGenai?.nodes[0]?.journey[2]?.attributes;
+  const section4=data?.allGenai?.nodes[0]?.journey[3]?.attributes;
+  const section5=data?.allGenai?.nodes[0]?.journey[4]?.attributes;
+  const section6=data?.allGenai?.nodes[0]?.journey[5]?.attributes;
+  const section7=data?.allGenai?.nodes[0]?.journey[6]?.attributes;
 
 
   return {banner,section2,section3,section4,section5,section6,section7};
