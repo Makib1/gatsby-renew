@@ -148,7 +148,7 @@ exports.createPages = async ({ graphql, actions }) => {
  
   // Access the blogs data
   const blogs = result.data.allStrapiBlog.edges;
-  console.log(JSON.stringify(blogs),"***************")
+  console.log("****************successfully fetched blog data during build***************");
  
   // Create pages for each blog:
   blogs.forEach(({ node }) => {

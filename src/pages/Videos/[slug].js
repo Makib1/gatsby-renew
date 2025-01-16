@@ -13,14 +13,16 @@ const Post = props => {
 
   useEffect(() => {
     const currentPath = window.location.pathname;
-    const lastPart = currentPath.substring(currentPath.lastIndexOf('/') + 1);
+
+    const parts = currentPath.split('/').filter(Boolean); // Split the URL by '/' and remove empty parts
+    const lastPart = parts[parts.length - 1];
     const filteredVideo = videoData.find(vid => vid.slug === lastPart);
-    console.log(filteredVideo, "hello");
+    console.log(currentPath, filteredVideo, "hello");
     setRunningVideo(filteredVideo);
 
     const updatedVideoData = videoData.filter(video => video.slug !== lastPart);
     setListVideo(updatedVideoData.slice(0, 3));
-}, [videoData]); // Include videoData as a dependency
+  }, [videoData]); // Include videoData as a dependency
 
 
   const handleVideoClick = (slug, heading) => {

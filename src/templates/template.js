@@ -173,7 +173,7 @@ const BlogTemplate = ({ pageContext }) => {
   return (
     <>
     <Helmet>
-        <title>{"title"}</title>
+        <title>{"LUMIQ | Blogs"}</title>
         <meta name="description" content={"description"} />
         <meta property="og:title" content={content.header} />
         <meta property="og:description" content={content.slug} />
